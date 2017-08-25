@@ -134,7 +134,7 @@
                                 <select name="semestre" id="semestre" class="form-control">
                                     <option>Primero</option>
                                     <option>Segundo</option>
-                                    <option>Tercer</option>
+                                    <option>Tercero</option>
                                     <option>Cuarto</option>
                                     <option>Quinto</option>
                                     <option>Sexto</option>

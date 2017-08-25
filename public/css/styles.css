@@ -1,0 +1,54 @@
+.parallax { 
+    /* The image used */
+    background-image: url("/img/banner.png");
+
+    /* Set a specific height */
+    height: 480px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.margin-playstore {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    .parallax {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .parallax {
+        height: 420px;
+    }
+
+    .img_banner {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .parallax {
+        height: 370px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .parallax {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .parallax {
+        height: 270px;
+    }
+    .playstore {
+        width: 150px;
+    }
+}
