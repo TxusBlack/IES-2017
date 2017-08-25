@@ -70,7 +70,7 @@
                         <!-- Estado Cuenta -->
                         <fieldset disabled>
                             <div class="form-group{{ $errors->has('estado_cuenta') ? ' has-error' : '' }}">
-                            <label for="estado_cuenta" class="col-md-4 control-label">Número de documento</label>
+                            <label for="estado_cuenta" class="col-md-4 control-label">Estado de la cuenta</label>
 
                             <div class="col-md-6">
                                 <input id="estado_cuenta" type="text" class="form-control" name="estado_cuenta" value="{{ old('estado_cuenta') }}" placeholder="Pre-inscrito">
