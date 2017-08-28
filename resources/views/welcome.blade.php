@@ -37,35 +37,35 @@
         <h2 class="text-center">Invitados</h2>
         <div class="row photos">
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/alberto1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/jose1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#José_Luis_Roca" data-lightbox="photos"><img src="{{ asset('/img/ponentes/jose1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/lucas.jpg/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/lucas.jpg/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Lucas_Costa" data-lightbox="photos"><img src="{{ asset('/img/ponentes/lucas.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/andres1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/andres1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Andrés_Moltoni" data-lightbox="photos"><img src="{{ asset('/img/ponentes/andres1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/henry1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/henry1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Henry_Reyes" data-lightbox="photos"><img src="{{ asset('/img/ponentes/henry1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/milton1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/milton1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Milton_Quiroga_Becerra" data-lightbox="photos"><img src="{{ asset('/img/ponentes/milton1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/alberto1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/alberto1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Alberto_Mora_Gutiérrez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/alberto1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-1 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/roberto1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/roberto1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Roberto_Alves_de_Oliveira" data-lightbox="photos"><img src="{{ asset('/img/ponentes/roberto1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/manuel1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/manuel1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Manual_Fernando_Gonzalez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/manuel1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/pablo1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/pablo1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Pablo_Ernesto_Montalvo" data-lightbox="photos"><img src="{{ asset('/img/ponentes/pablo1.png/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/thompson1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/thompson1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Thompson_Sarkodie-Gyan" data-lightbox="photos"><img src="{{ asset('/img/ponentes/thompson1.png/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/marcos1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/marcos1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Marcos_Algara_Siller" data-lightbox="photos"><img src="{{ asset('/img/ponentes/marcos1.png/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-4 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a href="{{ asset('/img/ponentes/betsy1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/betsy1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Betsy_Chaparro_Rico" data-lightbox="photos"><img src="{{ asset('/img/ponentes/betsy1.png/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-offset-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 item ponentes">
-                <a href="{{ asset('/img/ponentes/miguel1.png/') }}" data-lightbox="photos"><img src="{{ asset('/img/ponentes/miguel1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Miguel_Ángel_Valencia" data-lightbox="photos"><img src="{{ asset('/img/ponentes/miguel1.png/') }}" class="img-responsive" /></a>
             </div>
         </div>
     </div>
@@ -129,7 +129,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/jose1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/jose1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -176,7 +176,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/andres1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/andres1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -236,7 +236,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/lucas.jpg">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/lucas.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -293,7 +293,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/henry1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/henry1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -346,7 +346,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/milton1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/milton1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -397,7 +397,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/alberto1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/alberto1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -458,7 +458,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/roberto1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/roberto1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -505,7 +505,7 @@ Liderazgo
                             </div>
                             <div class="modal-body">
                                 <div class="col-md-6">
-                                    <img alt="" class="img-responsive" src="imgs/invitados/pablo1.png">
+                                    <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/pablo1.png/') }}">
                                     </img>
                                 </div>
                                 <div class="row">
@@ -572,7 +572,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/marcos1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/marcos1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -617,7 +617,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/betsy1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/betsy1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -669,7 +669,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/miguel1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/miguel1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -721,7 +721,7 @@ Liderazgo
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/gyan1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/thompson1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
