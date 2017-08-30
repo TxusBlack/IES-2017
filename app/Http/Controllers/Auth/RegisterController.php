@@ -53,13 +53,14 @@ class RegisterController extends Controller
             'tipo_id' => 'required|string',
             'doc_id' => 'required|string|max:20|unique:users',
             'cod_ocupacion' => 'required|string',
-            'universidad' => 'required|string|max:100',
-            'programa' => 'required|string',
-            'semestre' => 'required|string',
+            'universidad' => 'string|max:100',
+            'programa' => 'string',
+            'semestre' => 'string',
             'telefono' => 'required|string|max:15',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
             'estado_cuenta' => 'string',
+            'ciudad' => 'required|string',
         ]);
     }
 
@@ -84,6 +85,7 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
             'estado_cuenta' => 'Pre-inscrito',
+            'ciudad' => $data['ciudad'],
         ]);
     }
 }

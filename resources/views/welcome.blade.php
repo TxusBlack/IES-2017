@@ -9,7 +9,7 @@
                 <img class="img-responsive" src="/img/logo_ies.png" alt="Logo IES" width="300px" height="100%" style="padding-top: 40px; margin-left: 20px;">
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 img_banner">
-                <img src="/img/Info.png" alt="IES" class="img-responsive" width="762px" height="295px" style="padding-top: 40px;">
+                <img src="/img/Info.png" alt="IES" class="img-responsive img-fluid" width="762px" height="295px" style="padding-top: 40px;">
                 <a href="https://play.google.com/store/apps/details?id=com.unisangil.ies" target="__blank"><img class="margin-playstore playstore" src="/img/playstore.png" alt="PlayStore" class="img-responsive" width="236px" height="100%" border="none"></a>
             </div>
         </div>
@@ -48,20 +48,17 @@
                 <a data-toggle="modal" href="#Milton_Quiroga_Becerra" data-lightbox="photos"><img src="{{ asset('/img/ponentes/milton1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Alberto_Mora_Gutiérrez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/alberto1.png/') }}" class="img-responsive" /></a>
-            </div><div class="col-lg-2 col-lg-offset-1 col-md-4 col-sm-4 col-xs-6 item ponentes">
+            </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Roberto_Alves_de_Oliveira" data-lightbox="photos"><img src="{{ asset('/img/ponentes/roberto1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Manual_Fernando_Gonzalez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/manuel1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Manual_Fernando_Gonzalez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/manual1.png/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Pablo_Ernesto_Montalvo" data-lightbox="photos"><img src="{{ asset('/img/ponentes/pablo1.png/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Thompson_Sarkodie-Gyan" data-lightbox="photos"><img src="{{ asset('/img/ponentes/thompson1.png/') }}" class="img-responsive" /></a>
-            </div>
-            <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Marcos_Algara_Siller" data-lightbox="photos"><img src="{{ asset('/img/ponentes/marcos1.png/') }}" class="img-responsive" /></a>
             </div>
-            <div class="col-lg-2 col-lg-offset-4 col-md-4 col-sm-4 col-xs-6 item ponentes">
+            <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Betsy_Chaparro_Rico" data-lightbox="photos"><img src="{{ asset('/img/ponentes/betsy1.png/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-offset-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 item ponentes">
@@ -70,7 +67,6 @@
         </div>
     </div>
 </div>
-
 <!--Modals -->
             <div>
                 <div class="modal fade" id="Manual_Fernando_Gonzalez">
@@ -81,33 +77,31 @@
                                     ×
                                 </button>
                                 <h2>
-                                    Msc. Manual Fernando Gonzalez
+                                    Msc. Manuel Fernando Gonzalez
                                 </h2>
                             </div>
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="imgs/invitados/manuel1.png">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/manual1.png/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p>
-                                            Msc. Gestión del Mantenimiento Industrial,
-ESPOCH, Ecuador
-Msc. Gestión de Educación, Universidad
-Regional de los Andes, Ecuador.
-Esp. Diseño Curricular, U. Regional de los
-Andes, Ecuador.
-Ingeniero de Mantenimiento, ESPOCH,
-Ecuador
-Director Escuela de Ingeniería de
-Mantenimiento
-Facultad de Mecánica
-Escuela Superior Politécnica de Chimborazo,
-ESPOCH
-Confiabilidad Humana en las Empresas
-Formación en la Ingeniería para el
-Liderazgo
+                                            Msc. Gestión de la Educación, Universidad Regional de los Andes, Ecuador.
+                                        </p>
+                                        <p>
+                                            Especialista en Diseño Curricular, U. Regional de los Andes, Ecuador.
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                Ingeniero de Mantenimiento, ESPOCH, Ecuador
+                                            </strong>
+                                        </p>
+                                        <p>
+                                            <strong>
+                                                Escuela Superior Politécnica de Chimborazo, ESPOCH
+                                            </strong>
                                         </p>
                                     </div>
                                 </div>
@@ -675,92 +669,18 @@ Liderazgo
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Ingeniero en Sistemas Computacionales
-                                    Instituto, Tecnológico de Cuautla (ITC)
-                                    en Morelos, México
+                                                Ingeniero en Sistemas Computacionales Instituto, Tecnológico de Cuautla (ITC) en Morelos, México
                                             </p>
-                                            <p>
-                                                Maestría en Ciencias en Ciencias
-                                    Computacionales en el Instituto Nacional
-                                    de Astrofísica, Óptica y
-                                    Electrónica (INAOE), México
+                                            <p> Maestría en Ciencias en Ciencias Computacionales en el Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE), México
                                             </p>
-                                            <p>
-                                                Investigador Laboratorio de Cómputo y
-                                    Procesamiento Ubicuo del INAOE
+                                            <p> Investigador Laboratorio de Cómputo y Procesamiento Ubicuo del INAOE
                                             </p>
                                             Desarrollador-Innovador proyectos para
-                                            <p>
-                                                el monitoreo y control de transporte
-    urbano
+                                            <p> el monitoreo y control de transporte urbano
                                             </p>
-                                            <strong>
-                                                Emprendimiento e Innovación
-                                    tecnológica para los Sistemas
-                                    Inteligentes de Transporte.
+                                            <strong> Emprendimiento e Innovación tecnológica para los Sistemas Inteligentes de Transporte.
                                             </strong>
                                         </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- -->
-                <div class="modal fade" id="Thompson_Sarkodie-Gyan">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button aria-hidden="true" class="close" data-dismiss="modal" type="button">
-                                    ×
-                                </button>
-                                <h2 class="text-center">
-                                    PhD Thompson Sarkodie-Gyan
-                                </h2>
-                            </div>
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/thompson1.png/') }}">
-                                        </img>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h5 class="text-center">
-                                            <p>
-                                                Doctor of Engineering Sciences in Measurement and
-Control Engineering, Technical University Berlin
-Master of Engineering Sciences (Dipl.Ing) in Electrical
-Engineering and Cybernetics (Automatic Controls),
-Technical University Otto-von-Guericke Magdeburg.
-                                            </p>
-                                            <p>
-                                                Associate Professor of Electrical and Computer
-Engineering at the University of Texas, College of
-Engineering
-                                            </p>
-                                            <p>
-                                                Founding Director of the University's Laboratory for
-Industrial Metrology and Automation
-                                            </p>
-                                            <p>
-                                                Founding Director of the University's Laboratory for
-Human Motion Analysis and Neurorehabilitation
-Member of the World Federation of Neurorehabilitation
-Fellow of the Institute of Measurement and Control
-(InstMC). Distinguished Member of the German Institution
-of Engineers, VDI (Gesellschaft fuer Mess-und
-Automatisierungstechnik, GMA).
-Author of the Book: Neuro Rehabilitation Devices
-                                            </p>
-                                        </h5>
-                                        <p>
-                                            <strong>
-                                                Machine Learning
-                                            </strong>
-                                        </p>
-                                        <strong>
-                                            Reasoning System with Fuzzy Logic
-                                        </strong>
                                     </div>
                                 </div>
                             </div>
@@ -768,6 +688,54 @@ Author of the Book: Neuro Rehabilitation Devices
                     </div>
                 </div>
             </div>
-            <!-- Fin Modals -->
+<!-- Fin Modals -->
+
+<!-- Inversión -->
+<div class="container-fluid background-block">
+    <div class="container margin-container">
+        <div class="row">
+            <h2 class="text-center">Inversión</h3>
+            <div class="col-lg-6">
+                <div class="col-lg-12 inversion">
+                    <h3 class="text-center">Estudiantes, Egresados, Docentes e Instituciones en Convenio con UNISANGIL</h3>
+                    <div class="col-lg-10 col-lg-offset-1 linea-horizontal"></div>
+                    <div class="col-lg-6">
+                        <h4 class="text-center">
+                            <strong>$150.000</strong>
+                        </h4>
+                        <p class="text-justify">Descuento válido hasta antes del 1 de septiembre de 2017. Si te preincribes puedes pagar hasta el 10 de septiembre.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 class="text-center">
+                            <strong>$180.000</strong>
+                        </h4>
+                        <p class="text-justify">Valor de la entrada válido desde del 1 de septiembre de 2017 hasta el 18 de septiembre.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-12 inversion">
+                    <h3 class="text-center">Particulares externos a<br>UNISANGIL</h3>
+                    <div class="col-lg-10 col-lg-offset-1 linea-horizontal"></div>
+                    <div class="col-lg-6">
+                        <h4 class="text-center">
+                            <strong>$200.000</strong>
+                        </h4>
+                        <p class="text-justify">Descuento válido hasta antes del 1 de septiembre de 2017. Si te preincribes puedes pagar hasta el 10 de septiembre.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 class="text-center">
+                            <strong>$250.000</strong>
+                        </h4>
+                        <p class="text-justify">Valor de la entrada válido desde del 1 de septiembre de 2017 hasta el 18 de septiembre.</p>
+                    </div>
+                </div>
+                <a class="btn btn-primary pull-right" style="margin-top: 20px" href="{{ route('register') }}">Registrate aquí</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
 
 @endsection

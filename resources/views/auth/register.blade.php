@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <div class="panel-heading">Registrar</div>
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
@@ -67,6 +67,17 @@
                             </div>
                         </div>
 
+                        <!-- Ciudad -->
+                        <div class="form-group">
+                            <label for="ciudad" class="col-md-4 control-label">Ciudad del evento</label>
+                            <div class="col-md-6">
+                                <select name="ciudad" id="ciudad" class="form-control">
+                                    <option>San Gil</option>
+                                    <option>Yopal</option>
+                                </select>
+                            </div>
+                        </div>
+
                         <!-- Estado Cuenta -->
                         <fieldset disabled>
                             <div class="form-group{{ $errors->has('estado_cuenta') ? ' has-error' : '' }}">
@@ -88,23 +99,23 @@
                         <div class="form-group">
                             <label for="cod_ocupacion" class="col-md-4 control-label">Ocupación</label>
                             <div class="col-md-6">
-                                <select name="cod_ocupacion" id="cod_ocupacion" class="form-control">
-                                    <option href="#oc_1" class="inf">Estudiante</option>
-                                    <option href="#oc_2" class="inf">Docente</option>
-                                    <option href="#oc_3" class="inf">Administrativo</option>
-                                    <option href="#oc_4" class="inf">Egresado</option>
-                                    <option href="#oc_5" class="inf">Externo</option>
+                                <select name="cod_ocupacion" id="cod_ocupacion" class="form-control" required>
+                                    <option value="Estudiante">Estudiante</option>
+                                    <option value="Docente">Docente</option>
+                                    <option value="Administrativo">Administrativo</option>
+                                    <option value="Egresado">Egresado</option>
+                                    <option value="Externo">Externo</option>
                                 </select>
                             </div>
                         </div>
 
                         <!-- Mostrar opciones ocupacion -->
                         <!-- Universiad -->
-                        <div id="oc_1" class="form-group{{ $errors->has('universidad') ? ' has-error' : '' }} oculto">
+                        <div class="form-group{{ $errors->has('universidad') ? ' has-error' : '' }} myform" id="op1">
                             <label for="universidad" class="col-md-4 control-label">Universidad</label>
 
                             <div class="col-md-6">
-                                <input id="universidad" type="phone" class="form-control" name="universidad" value="{{ old('universidad') }}" required>
+                                <input id="universidad" type="text" class="form-control" name="universidad" value="{{ old('universidad') }}">
 
                                 @if ($errors->has('universidad'))
                                     <span class="help-block">
@@ -114,11 +125,11 @@
                             </div>
                         </div>
                         <!-- Programa -->
-                        <div id="oc_1" class="form-group{{ $errors->has('programa') ? ' has-error' : '' }} oculto">
+                        <div class="form-group{{ $errors->has('programa') ? ' has-error' : '' }} myform" id="op2">
                             <label for="programa" class="col-md-4 control-label">Programa</label>
 
                             <div class="col-md-6">
-                                <input id="programa" type="phone" class="form-control" name="programa" value="{{ old('programa') }}" required>
+                                <input id="programa" type="text" class="form-control" name="programa" value="{{ old('programa') }}" placeholder="Ingenieria de ...">
 
                                 @if ($errors->has('programa'))
                                     <span class="help-block">
@@ -128,7 +139,7 @@
                             </div>
                         </div>
                         <!-- Semestre -->
-                        <div id="oc_1" class="form-group oculto">
+                        <div class="form-group myform" id="op3">
                             <label for="semestre" class="col-md-4 control-label">Semestre</label>
                             <div class="col-md-6">
                                 <select name="semestre" id="semestre" class="form-control">
