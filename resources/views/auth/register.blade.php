@@ -115,7 +115,7 @@
                             <label for="universidad" class="col-md-4 control-label">Universidad</label>
 
                             <div class="col-md-6">
-                                <input id="universidad" type="text" class="form-control" name="universidad" value="{{ old('universidad') }}">
+                                <input id="universidad" type="text" class="form-control" name="universidad" value="{{ old('universidad') }}" id="input_op1">
 
                                 @if ($errors->has('universidad'))
                                     <span class="help-block">
@@ -129,7 +129,7 @@
                             <label for="programa" class="col-md-4 control-label">Programa</label>
 
                             <div class="col-md-6">
-                                <input id="programa" type="text" class="form-control" name="programa" value="{{ old('programa') }}" placeholder="Ingenieria de ...">
+                                <input id="programa" type="text" class="form-control" name="programa" value="{{ old('programa') }}" placeholder="Ingenieria de ..." id="input_op2">
 
                                 @if ($errors->has('programa'))
                                     <span class="help-block">

@@ -61,7 +61,7 @@
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Betsy_Chaparro_Rico" data-lightbox="photos"><img src="{{ asset('/img/ponentes/betsy1.png/') }}" class="img-responsive" /></a>
             </div>
-            <div class="col-lg-2 col-lg-offset-0 col-md-offset-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 item ponentes">
+            <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Miguel_Ángel_Valencia" data-lightbox="photos"><img src="{{ asset('/img/ponentes/miguel1.png/') }}" class="img-responsive" /></a>
             </div>
         </div>
@@ -695,7 +695,7 @@
     <div class="container margin-container">
         <div class="row">
             <h2 class="text-center">Inversión</h3>
-            <div class="col-lg-6">
+            <div class="col-lg-6 margin-container">
                 <div class="col-lg-12 inversion">
                     <h3 class="text-center">Estudiantes, Egresados, Docentes e Instituciones en Convenio con UNISANGIL</h3>
                     <div class="col-lg-10 col-lg-offset-1 linea-horizontal"></div>
@@ -713,7 +713,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 margin-container">
                 <div class="col-lg-12 inversion">
                     <h3 class="text-center">Particulares externos a<br>UNISANGIL</h3>
                     <div class="col-lg-10 col-lg-offset-1 linea-horizontal"></div>
@@ -736,6 +736,220 @@
     </div>
 </div>
 
+<!-- Agenda -->
+<div class="container">
+    <div class="margin-container">
+        <div class="row">
+            <h2 class="text-center">Cronograma</h2>
+            <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
+                <div class="btn-group" role="group">
+                    <button class="btn btn-default sg" type="button">San Gil</button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button class="btn btn-default yp" type="button">Yopal</button>
+                </div>
+            </div>
+            <br>
+            <div class="collapse dsg">
+                <div class="btn-group btn-group-justified" role="group">
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default d1-sg btn-day" type="button">Día 1</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default d2-sg btn-day" type="button">Día 2</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default d3-sg btn-day" type="button">Día 3</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default d4-sg btn-day" type="button">Día 4</button>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse dyp">
+                <div class="btn-group btn-group-justified" role="group">
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default" type="button">Día 1</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default" type="button">Día 2</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default" type="button">Día 3</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default" type="button">Día 4</button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button class="btn btn-default" type="button">Día 5</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Días de San Gil -->
+            <div class="collapse dia1-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
+                                </p>
+                                <p>Taller: Seguridad en redes industriales</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <strong>APERTURA DEL EVENTO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Ciberseguridad</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Agroelectrónica</p>
+                                <p>
+                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Medidas de complejidad en software</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse dia2-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>10:00 h</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>11:00 h</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>14:00 h</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>20:00 h</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse dia3-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>10:00 h</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>11:00 h</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>14:00 h</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>20:00 h</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse dia4-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>10:00 h</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>11:00 h</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>14:00 h</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>20:00 h</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Footer -->
 
 @endsection

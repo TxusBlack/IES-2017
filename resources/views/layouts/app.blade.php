@@ -13,6 +13,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/timeline.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Lightbox-Gallery.css') }}">
 </head>
 <body>
@@ -79,6 +80,10 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/bs-animation.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/timeline.js') }}"></script>
+    <script src="{{ asset('js/jquery.mobile-1.4.5.js') }}"></script>
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"   
         integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
