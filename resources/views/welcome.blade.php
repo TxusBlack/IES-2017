@@ -769,25 +769,391 @@
             <div class="collapse dyp">
                 <div class="btn-group btn-group-justified" role="group">
                     <div class="btn-group" role="group">
-                        <button class="btn btn-default" type="button">Día 1</button>
+                        <button class="btn btn-default d1-yp btn-day" type="button">Día 1</button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button class="btn btn-default" type="button">Día 2</button>
+                        <button class="btn btn-default d2-yp btn-day" type="button">Día 2</button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button class="btn btn-default" type="button">Día 3</button>
+                        <button class="btn btn-default d3-yp btn-day" type="button">Día 3</button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button class="btn btn-default" type="button">Día 4</button>
+                        <button class="btn btn-default d4-yp btn-day" type="button">Día 4</button>
                     </div>
                     <div class="btn-group" role="group">
-                        <button class="btn btn-default" type="button">Día 5</button>
+                        <button class="btn btn-default d5-yp btn-day" type="button">Día 5</button>
                     </div>
                 </div>
             </div>
 
             <!-- Días de San Gil -->
             <div class="collapse dia1-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
+                                </p>
+                                <p>Taller: Seguridad en redes industriales</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <strong>APERTURA DEL EVENTO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Ciberseguridad</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Agroelectrónica</p>
+                                <p>
+                                    <strong>Msc. Andrés Fernando Molton</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Medidas de complejidad en software</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse dia2-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>AUDITORIO MENOR</small>
+                                </p>
+                                <p>Conversatorio con investigadores</p>
+                                <p>
+                                    <strong>_</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>Laboratorio</small>
+                                </p>
+                                <p>Taller: Sistemas inteligentes de transporte</p>
+                                <p>
+                                    <strong>Miguel Ángel Valencia</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Research experience in anaerobic of wastewater and anaerobic digestion with and special emphasis in use of rural waste</p>
+                                <p>
+                                    <strong>PhD. Roberto Alves de Olivera</strong> <small>BRA</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Emprendimiento e innovacion tecnologica para los sistemas inteligentes de transporte</p>
+                                <p>
+                                    <strong>Miguel Ángel Valencia</strong> <small>MEX</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Modelo de sostenibilidad para para la soberania de comunidades volnerables</p>
+                                <p>
+                                    <strong>PhD. Marcos Algara Siller</strong> <small>MEX</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Contabilidad en ingenieria</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Gestión de innovacion en ciencia y tecnología para el agro</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Agrorobótica</p>
+                                <p>
+                                    <strong>Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse dia3-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>La seguridad agroalimentaria como alternativa de cambio.</p>
+                                <p>
+                                    <strong>Ph.D Henry Reyes Pineda</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>El proceso de diseño mecatrónico en ingeniería</p>
+                                <p>
+                                    <strong>Ph.D Betsy Chaparro Rico.</strong> <small>COL - MEX</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Contabilidad humana en las empresas</p>
+                                <p>
+                                    <strong>Msc. Manuel Fernando Gonzales</strong> <small>ECU</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Diseño de sistemas de rehabilitación</p>
+                                <p>
+                                    <strong>Ph.D Betsy Chaparro Rico</strong> <small>COL - MEX</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Mantenimiento de sistemas electroneumáticos y olehidráulicos</p>
+                                <p>
+                                    <strong>Msc. Pablo Ernesto Montalvo</strong> <small>ECU</small>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse dia4-sg" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>Auditorio Menor</small>
+                                </p>
+                                <p>Conversatorio con investigadores</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small></small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Diseño de una celda combustible de hidrógeno tipo PEM como estratégia de mejoramiento ambiental</p>
+                                <p>
+                                    <strong>Ph.D Henry Reyes Pineda</strong> COL<small></small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <small>Auditorio Menor</small>
+                                </p>
+                                <p>Conversatorio con investigadores</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small></small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Ciberseguridad</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Agroelectrónica</p>
+                                <p>
+                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Medidas de complejidad en software</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Días de Yopal -->
+            <div class="collapse dia1-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
@@ -869,79 +1235,329 @@
                     </ul>
                 </div>
             </div>
-            <div class="collapse dia2-sg" id="agenda">
+            <div class="collapse dia2-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
                             <div>
-                                <time>10:00 h</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
+                                </p>
+                                <p>Taller: Seguridad en redes industriales</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>11:00 h</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                                <time>6:30 pm</time>
+                                <p>
+                                    <strong>APERTURA DEL EVENTO</strong>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>14:00 h</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>20:00 h</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Ciberseguridad</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Agroelectrónica</p>
+                                <p>
+                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Medidas de complejidad en software</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="collapse dia3-sg" id="agenda">
+            <div class="collapse dia3-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
                             <div>
-                                <time>10:00 h</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
+                                </p>
+                                <p>Taller: Seguridad en redes industriales</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>11:00 h</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                                <time>6:30 pm</time>
+                                <p>
+                                    <strong>APERTURA DEL EVENTO</strong>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>14:00 h</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>20:00 h</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Ciberseguridad</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Agroelectrónica</p>
+                                <p>
+                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Medidas de complejidad en software</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="collapse dia4-sg" id="agenda">
+            <div class="collapse dia4-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
                             <div>
-                                <time>10:00 h</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
+                                </p>
+                                <p>Taller: Seguridad en redes industriales</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>11:00 h</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                                <time>6:30 pm</time>
+                                <p>
+                                    <strong>APERTURA DEL EVENTO</strong>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>14:00 h</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>20:00 h</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Ciberseguridad</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Agroelectrónica</p>
+                                <p>
+                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Medidas de complejidad en software</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse dia5-yp" id="agenda">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div>
+                                <time>4:00 pm</time>
+                                <p>
+                                    <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
+                                </p>
+                                <p>Taller: Seguridad en redes industriales</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>6:30 pm</time>
+                                <p>
+                                    <strong>APERTURA DEL EVENTO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>
+                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>7:30 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Ciberseguridad</p>
+                                <p>
+                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:30pm - 8:45pm</time>
+                                <p>
+                                    <strong>RECESO</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45pm</time>
+                                <p>
+                                    <small>COLISEO</small>
+                                </p>
+                                <p>Agroelectrónica</p>
+                                <p>
+                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <time>8:45 pm</time>
+                                <p>
+                                    <small>AUDITORIO</small>
+                                </p>
+                                <p>Medidas de complejidad en software</p>
+                                <p>
+                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                </p>
                             </div>
                         </li>
                     </ul>

@@ -37,10 +37,21 @@ $(document).ready(function(){
     $(".sg").click(function(){
         $(".dyp").collapse('hide');
         $(".dsg").collapse('show');
+
+        $(".dia2-yp").collapse('hide');
+        $(".dia3-yp").collapse('hide');
+        $(".dia4-yp").collapse('hide');
+        $(".dia5-yp").collapse('hide');
+        $(".dia1-yp").collapse('hide');
     });
     $(".yp").click(function(){
         $(".dsg").collapse('hide');
         $(".dyp").collapse('show');
+
+        $(".dia2-sg").collapse('hide');
+        $(".dia3-sg").collapse('hide');
+        $(".dia4-sg").collapse('hide');
+        $(".dia1-sg").collapse('hide');
     });
 });
 
@@ -69,5 +80,44 @@ $(document).ready(function(){
         $(".dia2-sg").collapse('hide');
         $(".dia3-sg").collapse('hide');
         $(".dia4-sg").collapse('show');
+    });
+});
+
+// Timeline Días Yopal
+$(document).ready(function(){
+    $(".d1-yp").click(function(){
+        $(".dia2-yp").collapse('hide');
+        $(".dia3-yp").collapse('hide');
+        $(".dia4-yp").collapse('hide');
+        $(".dia5-yp").collapse('hide');
+        $(".dia1-yp").collapse('show');
+    });
+    $(".d2-yp").click(function(){
+        $(".dia1-yp").collapse('hide');
+        $(".dia3-yp").collapse('hide');
+        $(".dia4-yp").collapse('hide');
+        $(".dia5-yp").collapse('hide');
+        $(".dia2-yp").collapse('show');
+    });
+    $(".d3-yp").click(function(){
+        $(".dia1-yp").collapse('hide');
+        $(".dia2-yp").collapse('hide');
+        $(".dia4-yp").collapse('hide');
+        $(".dia5-yp").collapse('hide');
+        $(".dia3-yp").collapse('show');
+    });
+    $(".d4-yp").click(function(){
+        $(".dia1-yp").collapse('hide');
+        $(".dia2-yp").collapse('hide');
+        $(".dia3-yp").collapse('hide');
+        $(".dia5-yp").collapse('hide');
+        $(".dia4-yp").collapse('show');
+    });
+    $(".d5-yp").click(function(){
+        $(".dia1-yp").collapse('hide');
+        $(".dia2-yp").collapse('hide');
+        $(".dia3-yp").collapse('hide');
+        $(".dia4-yp").collapse('hide');
+        $(".dia5-yp").collapse('show');
     });
 });
