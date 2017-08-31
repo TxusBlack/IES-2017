@@ -850,7 +850,7 @@
                                 </p>
                                 <p>Agroelectrónica</p>
                                 <p>
-                                    <strong>Msc. Andrés Fernando Molton</strong> <small>ARG</small>
+                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
                                 </p>
                             </div>
                         </li>
@@ -1084,11 +1084,11 @@
                             <div>
                                 <time>6:30 pm</time>
                                 <p>
-                                    <small>Auditorio Menor</small>
+                                    <small>AUDITORIO</small>
                                 </p>
-                                <p>Conversatorio con investigadores</p>
+                                <p>Inventario cero</p>
                                 <p>
-                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small></small>
+                                    <strong>Ph.D Alberto Mora Gutierrez</strong>COL<small></small>
                                 </p>
                             </div>
                         </li>
@@ -1098,9 +1098,9 @@
                                 <p>
                                     <small>COLISEO</small>
                                 </p>
-                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                <p>La automatización industrial en el marco de la cuarta revolución industrial.</p>
                                 <p>
-                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                    <strong>Msc. Pablo Ernesto Montalvo</strong> <small>ECU</small>
                                 </p>
                             </div>
                         </li>
@@ -1110,9 +1110,9 @@
                                 <p>
                                     <small>AUDITORIO</small>
                                 </p>
-                                <p>Ciberseguridad</p>
+                                <p>Tecnología</p>
                                 <p>
-                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                    <strong>Ph.D Alberto Mora Gutierrez</strong> <small>COL</small>
                                 </p>
                             </div>
                         </li>
@@ -1130,21 +1130,9 @@
                                 <p>
                                     <small>COLISEO</small>
                                 </p>
-                                <p>Agroelectrónica</p>
+                                <p>Formación en ingeniería para el liderazgo</p>
                                 <p>
-                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Medidas de complejidad en software</p>
-                                <p>
-                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                    <strong>Msc. Manuel Fernando Gonzales</strong> <small>ECU</small>
                                 </p>
                             </div>
                         </li>
