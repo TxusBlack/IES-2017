@@ -743,10 +743,10 @@
             <h2 class="text-center">Cronograma</h2>
             <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
                 <div class="btn-group" role="group">
-                    <button class="btn btn-default sg" type="button">San Gil</button>
+                    <button class="btn btn-primary sg" type="button">San Gil</button>
                 </div>
                 <div class="btn-group" role="group">
-                    <button class="btn btn-default yp" type="button">Yopal</button>
+                    <button class="btn btn-primary yp" type="button">Yopal</button>
                 </div>
             </div>
             <br>
@@ -1141,7 +1141,7 @@
             </div>
 
             <!-- Días de Yopal -->
-            <div class="paislapse dia1-yp" id="agenda">
+            <div class="collapse dia1-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
@@ -1239,7 +1239,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="paislapse dia2-yp" id="agenda">
+            <div class="collapse dia2-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
@@ -1338,7 +1338,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="paislapse dia3-yp" id="agenda">
+            <div class="collapse dia3-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
@@ -1425,7 +1425,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="paislapse dia4-yp" id="agenda">
+            <div class="collapse dia4-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
@@ -1499,7 +1499,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="paislapse dia5-yp" id="agenda">
+            <div class="collapse dia5-yp" id="agenda">
                 <div class="timeline">
                     <ul>
                         <li>
@@ -1529,5 +1529,6 @@
     </div>
 </div>
 <!-- Footer -->
+
 
 @endsection

@@ -81,7 +81,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: rgb(230,230,230);
+  background: rgb(125,123,123);
 }
 
 .timeline ul li div {

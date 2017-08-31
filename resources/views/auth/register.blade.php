@@ -143,6 +143,7 @@
                             <label for="semestre" class="col-md-4 control-label">Semestre</label>
                             <div class="col-md-6">
                                 <select name="semestre" id="semestre" class="form-control">
+                                    <option value="">- Seleccione una opción -</option>
                                     <option>Primero</option>
                                     <option>Segundo</option>
                                     <option>Tercero</option>
