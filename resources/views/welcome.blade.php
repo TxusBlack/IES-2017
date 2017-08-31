@@ -690,8 +690,805 @@
             </div>
 <!-- Fin Modals -->
 
-<!-- Inversión -->
+<!-- Agenda -->
 <div class="container-fluid background-block">
+    <div class="container">
+        <div class="margin-container">
+            <div class="row">
+                <h2 class="text-center">Cronograma</h2>
+                <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
+                    <label class="btn btn-primary active sg">
+                        <input type="radio" name="San Gil" autocomplete="off" checked> San Gil
+                    </label>
+                    <label class="btn btn-primary yp">
+                        <input type="radio" name="Yopal" autocomplete="off"> Yopal
+                    </label>
+                </div>
+
+                <br>
+
+                <div class="collapse dsg">
+                    <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
+                        <label class="btn btn-default btn-day d1-sg active">
+                            <input type="radio" name="San GIl" autocomplete="off" checked> Día 1
+                        </label>
+                        <label class="btn btn-default btn-day d2-sg">
+                            <input type="radio" name="Yopal" autocomplete="off"> Día 2
+                        </label>
+                        <label class="btn btn-default btn-day d3-sg">
+                            <input type="radio" name="Yopal" autocomplete="off"> Día 3
+                        </label>
+                        <label class="btn btn-default btn-day d4-sg">
+                            <input type="radio" name="Yopal" autocomplete="off"> Día 4
+                        </label>
+                    </div>
+                </div>
+                <div class="collapse dyp">
+                    <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
+                        <label class="btn btn-default btn-day d1-yp active">
+                            <input type="radio" name="San GIl" autocomplete="off" checked> Día 1
+                        </label>
+                        <label class="btn btn-default btn-day d2-yp">
+                            <input type="radio" name="Yopal" autocomplete="off"> Día 2
+                        </label>
+                        <label class="btn btn-default btn-day d3-yp">
+                            <input type="radio" name="Yopal" autocomplete="off"> Día 3
+                        </label>
+                        <label class="btn btn-default btn-day d4-yp">
+                            <input type="radio" name="Yopal" autocomplete="off"> Día 4
+                        </label>
+                        <label class="btn btn-default btn-day d5-yp">
+                            <input type="radio" name="Yopal" autocomplete="off"> Día 5
+                        </label>
+                    </div>
+                </div>
+    
+                <!-- Dias -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xm-12">
+                    <!-- Días de San Gil -->
+                    <div class="collapse dia1-sg" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>4:00 pm</time>
+                                        <p>
+                                            <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
+                                        </p>
+                                        <p>Taller: Seguridad en redes industriales</p>
+                                        <p>
+                                            <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>6:30 pm</time>
+                                        <p>
+                                            <strong>APERTURA DEL EVENTO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
+                                        <p>
+                                            <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Ciberseguridad</p>
+                                        <p>
+                                            <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:30pm - 8:45pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:45pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Agroelectrónica</p>
+                                        <p>
+                                            <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:45 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Medidas de complejidad en software</p>
+                                        <p>
+                                            <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse dia2-sg" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>4:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO MENOR</small>
+                                        </p>
+                                        <p><strong>Conversatorio con investigadores</strong></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>4:00 pm</time>
+                                        <p>
+                                            <small>Laboratorio</small>
+                                        </p>
+                                        <p>Taller: Sistemas inteligentes de transporte</p>
+                                        <p>
+                                            <strong>Miguel Ángel Valencia</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>6:30 pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Research experience in anaerobic of wastewater and anaerobic digestion with and special emphasis in use of rural waste</p>
+                                        <p>
+                                            <strong>PhD. Roberto Alves de Olivera</strong> <small>BRA</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>6:30 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Emprendimiento e innovacion tecnologica para los sistemas inteligentes de transporte</p>
+                                        <p>
+                                            <strong>Miguel Ángel Valencia</strong> <small>MEX</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Modelo de sostenibilidad para para la soberania de comunidades volnerables</p>
+                                        <p>
+                                            <strong>PhD. Marcos Algara Siller</strong> <small>MEX</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Contabilidad en ingenieria</p>
+                                        <p>
+                                            <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:30pm - 8:45pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:45pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Gestión de innovacion en ciencia y tecnología para el agro</p>
+                                        <p>
+                                            <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:45 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Agrorobótica</p>
+                                        <p>
+                                            <strong>Andrés Fernando Moltoni</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse dia3-sg" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>6:30 pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>La seguridad agroalimentaria como alternativa de cambio.</p>
+                                        <p>
+                                            <strong>Ph.D Henry Reyes Pineda</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>El proceso de diseño mecatrónico en ingeniería</p>
+                                        <p>
+                                            <strong>Ph.D Betsy Chaparro Rico.</strong> <small>COL - MEX</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Contabilidad humana en las empresas</p>
+                                        <p>
+                                            <strong>Msc. Manuel Fernando Gonzales</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:30pm - 8:45pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:45pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Diseño de sistemas de rehabilitación</p>
+                                        <p>
+                                            <strong>Ph.D Betsy Chaparro Rico</strong> <small>COL - MEX</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:45 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Mantenimiento de sistemas electroneumáticos y olehidráulicos</p>
+                                        <p>
+                                            <strong>Msc. Pablo Ernesto Montalvo</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse dia4-sg" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>4:00 pm</time>
+                                        <p>
+                                            <small>Auditorio Menor</small>
+                                        </p>
+                                        <p>Conversatorio con investigadores</p>
+                                        <p>
+                                            <strong>Ph.D Milton Quiroga Becerra</strong> <small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>6:30 pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Diseño de una celda combustible de hidrógeno tipo PEM como estratégia de mejoramiento ambiental</p>
+                                        <p>
+                                            <strong>Ph.D Henry Reyes Pineda</strong> COL<small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>6:30 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Inventario cero</p>
+                                        <p>
+                                            <strong>Ph.D Alberto Mora Gutierrez</strong>COL<small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>La automatización industrial en el marco de la cuarta revolución industrial.</p>
+                                        <p>
+                                            <strong>Msc. Pablo Ernesto Montalvo</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:30 pm</time>
+                                        <p>
+                                            <small>AUDITORIO</small>
+                                        </p>
+                                        <p>Tecnología</p>
+                                        <p>
+                                            <strong>Ph.D Alberto Mora Gutierrez</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:30pm - 8:45pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:45pm</time>
+                                        <p>
+                                            <small>COLISEO</small>
+                                        </p>
+                                        <p>Formación en ingeniería para el liderazgo</p>
+                                        <p>
+                                            <strong>Msc. Manuel Fernando Gonzales</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    <!-- Días de Yopal -->
+                    <div class="collapse dia1-yp" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>6:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIOS</small>
+                                        </p>
+                                        <p>APERTURA</p>
+                                        <p>
+                                            <strong></strong> <small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Modelo de sostenibilidad para la soberanía de comunidades vulnerables.</p>
+                                        <p>
+                                            <strong>PhD.  MARCOS ALGARA SILLER</strong> <small>MEX</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>El proceso de diseño mecatrónico en ingeniería.</p>
+                                        <p>
+                                            <strong>Ph.D BETSY CHAPARRO RICO</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:00 - 8:15pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Diseño de una celda combustible de hidrógeno tipo PEM como estratégia de mejoramiento ambiental.</p>
+                                        <p>
+                                            <strong>Ph.D HENRY REYES PINEDA</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>La automatización industrial en el marco de la cuarta revolución industrial.</p>
+                                        <p>
+                                            <strong>Msc. PABLO ERNESTO MONTALVO</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>9:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Confiabilidad humana en las empresas </p>
+                                        <p>
+                                            <strong>Msc. MANUEL FERNANDO GONZALES</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>9:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Conversatorio</p>
+                                        <p>
+                                            <strong></strong> <small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse dia2-yp" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>4:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Conversatorio con investigadores</p>
+                                        <p>
+                                            <strong></strong> <small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>La seguridad agroalimentaria como alternativa de cambio.</p>
+                                        <p>
+                                            <strong>Ph.D HENRY REYES PINEDA</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Mantenimiento de sistemas electroneumáticos y olehidráulicos</p>
+                                        <p>
+                                            <strong>Msc. PABLO ERNESTO MONTALVO</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:00 - 8:15pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Terotecnología</p>
+                                        <p>
+                                            <strong>PhD.  ALBERTO MORA GUTIERREZ</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Diseño de sistemas de rehabilitación.</p>
+                                        <p>
+                                            <strong>Ph.D BETSY CHAPARRO RICO</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>9:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Formación en  ingeniería para el liderazgo</p>
+                                        <p>
+                                            <strong>Msc. MANUEL FERNANDO GONZALES</strong> <small>ECU</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>9:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Conversatorio</p>
+                                        <p>
+                                            <strong></strong> <small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse dia3-yp" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Research experience in anaerobic of wastewater and anaerobic digestion with and special emphasis in use of rural waste</p>
+                                        <p>
+                                            <strong>D. ROBERTO ALVES DE OLIVEIRA</strong> <small>BRA</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Taller  Sistemas inteligentes de transporte</p>
+                                        <p>
+                                            <strong>Msc. MIGUEL ÁNGEL VALENCIA</strong> <small>MEX</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:00 - 8:15pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Gestión de innovación en ciencia y tecnología para el agro.</p>
+                                        <p>
+                                            <strong>Msc. LUCAS EDUARDO COSTA</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Medidas de control en software</p>
+                                        <p>
+                                            <strong>Ph.D JOSE LUIS ROCA</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>9:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Conversatorio</p>
+                                        <p>
+                                            <strong></strong> <small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>9:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Agrorobotica</p>
+                                        <p>
+                                            <strong>Msc. ANDRÉS FERNANDO MOLTONI</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse dia4-yp" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>4:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Conversatorio con investigadores</p>
+                                        <p>
+                                            <strong></strong> <small></small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación.</p>
+                                        <p>
+                                            <strong>Msc. LUCAS EDUARDO COSTA</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Emprendimiento e innovación tecnológica para los sistemas inteligentes de transporte</p>
+                                        <p>
+                                            <strong>Msc. MIGUEL ÁNGEL VALENCIA</strong> <small>MEX</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:00 - 8:15pm</time>
+                                        <p>
+                                            <strong>RECESO</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Confiabilidad en Ingeniería</p>
+                                        <p>
+                                            <strong>Ph.D JOSE LUIS ROCA</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:15 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 2</small>
+                                        </p>
+                                        <p>Agroelectrónica</p>
+                                        <p>
+                                            <strong>Msc. ANDRÉS FERNANDO MOLTONI</strong> <small>ARG</small>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse dia5-yp" id="agenda">
+                        <div class="timeline">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <time>7:00 pm</time>
+                                        <p>
+                                            <small>AUDITORIO 1</small>
+                                        </p>
+                                        <p>Seguridad en redes industriales</p>
+                                        <p>
+                                            <strong>Ph.D MILTON QUIROGA BECERRA</strong> <small>COL</small>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <time>8:00</time>
+                                        <p>
+                                            <strong>CLAUSURA</strong>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Inversión -->
+<div>
     <div class="container margin-container">
         <div class="row">
             <h2 class="text-center">Inversión</h3>
@@ -736,799 +1533,20 @@
     </div>
 </div>
 
-<!-- Agenda -->
-<div class="container">
-    <div class="margin-container">
+<!-- Footer -->
+<footer>
+    <div class="container">
         <div class="row">
-            <h2 class="text-center">Cronograma</h2>
-            <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
-                <div class="btn-group" role="group">
-                    <button class="btn btn-primary sg" type="button">San Gil</button>
-                </div>
-                <div class="btn-group" role="group">
-                    <button class="btn btn-primary yp" type="button">Yopal</button>
-                </div>
-            </div>
-            <br>
-            <div class="collapse dsg">
-                <div class="btn-group btn-group-justified" role="group">
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d1-sg btn-day" type="button">Día 1</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d2-sg btn-day" type="button">Día 2</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d3-sg btn-day" type="button">Día 3</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d4-sg btn-day" type="button">Día 4</button>
-                    </div>
-                </div>
-            </div>
-            <div class="collapse dyp">
-                <div class="btn-group btn-group-justified" role="group">
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d1-yp btn-day" type="button">Día 1</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d2-yp btn-day" type="button">Día 2</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d3-yp btn-day" type="button">Día 3</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d4-yp btn-day" type="button">Día 4</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <button class="btn btn-default d5-yp btn-day" type="button">Día 5</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Días de San Gil -->
-            <div class="collapse dia1-sg" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>4:00 pm</time>
-                                <p>
-                                    <small>LABORATORIO DE REDES Y TELECOMUNICACIONES</small>
-                                </p>
-                                <p>Taller: Seguridad en redes industriales</p>
-                                <p>
-                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>6:30 pm</time>
-                                <p>
-                                    <strong>APERTURA DEL EVENTO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación</p>
-                                <p>
-                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Ciberseguridad</p>
-                                <p>
-                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:30pm - 8:45pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Agroelectrónica</p>
-                                <p>
-                                    <strong>Msc. Andrés Fernando Moltoni</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Medidas de complejidad en software</p>
-                                <p>
-                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="collapse dia2-sg" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>4:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO MENOR</small>
-                                </p>
-                                <p>Conversatorio con investigadores</p>
-                                <p>
-                                    <strong>_</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>4:00 pm</time>
-                                <p>
-                                    <small>Laboratorio</small>
-                                </p>
-                                <p>Taller: Sistemas inteligentes de transporte</p>
-                                <p>
-                                    <strong>Miguel Ángel Valencia</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>6:30 pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Research experience in anaerobic of wastewater and anaerobic digestion with and special emphasis in use of rural waste</p>
-                                <p>
-                                    <strong>PhD. Roberto Alves de Olivera</strong> <small>BRA</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>6:30 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Emprendimiento e innovacion tecnologica para los sistemas inteligentes de transporte</p>
-                                <p>
-                                    <strong>Miguel Ángel Valencia</strong> <small>MEX</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Modelo de sostenibilidad para para la soberania de comunidades volnerables</p>
-                                <p>
-                                    <strong>PhD. Marcos Algara Siller</strong> <small>MEX</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Contabilidad en ingenieria</p>
-                                <p>
-                                    <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:30pm - 8:45pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Gestión de innovacion en ciencia y tecnología para el agro</p>
-                                <p>
-                                    <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Agrorobótica</p>
-                                <p>
-                                    <strong>Andrés Fernando Moltoni</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="collapse dia3-sg" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>6:30 pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>La seguridad agroalimentaria como alternativa de cambio.</p>
-                                <p>
-                                    <strong>Ph.D Henry Reyes Pineda</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>El proceso de diseño mecatrónico en ingeniería</p>
-                                <p>
-                                    <strong>Ph.D Betsy Chaparro Rico.</strong> <small>COL - MEX</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Contabilidad humana en las empresas</p>
-                                <p>
-                                    <strong>Msc. Manuel Fernando Gonzales</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:30pm - 8:45pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Diseño de sistemas de rehabilitación</p>
-                                <p>
-                                    <strong>Ph.D Betsy Chaparro Rico</strong> <small>COL - MEX</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Mantenimiento de sistemas electroneumáticos y olehidráulicos</p>
-                                <p>
-                                    <strong>Msc. Pablo Ernesto Montalvo</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="collapse dia4-sg" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>4:00 pm</time>
-                                <p>
-                                    <small>Auditorio Menor</small>
-                                </p>
-                                <p>Conversatorio con investigadores</p>
-                                <p>
-                                    <strong>Ph.D Milton Quiroga Becerra</strong> <small></small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>6:30 pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Diseño de una celda combustible de hidrógeno tipo PEM como estratégia de mejoramiento ambiental</p>
-                                <p>
-                                    <strong>Ph.D Henry Reyes Pineda</strong> COL<small></small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>6:30 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Inventario cero</p>
-                                <p>
-                                    <strong>Ph.D Alberto Mora Gutierrez</strong>COL<small></small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>La automatización industrial en el marco de la cuarta revolución industrial.</p>
-                                <p>
-                                    <strong>Msc. Pablo Ernesto Montalvo</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:30 pm</time>
-                                <p>
-                                    <small>AUDITORIO</small>
-                                </p>
-                                <p>Tecnología</p>
-                                <p>
-                                    <strong>Ph.D Alberto Mora Gutierrez</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:30pm - 8:45pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:45pm</time>
-                                <p>
-                                    <small>COLISEO</small>
-                                </p>
-                                <p>Formación en ingeniería para el liderazgo</p>
-                                <p>
-                                    <strong>Msc. Manuel Fernando Gonzales</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Días de Yopal -->
-            <div class="collapse dia1-yp" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>6:00 pm</time>
-                                <p>
-                                    <small>AUDITORIOS</small>
-                                </p>
-                                <p>APERTURA</p>
-                                <p>
-                                    <strong></strong> <small></small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Modelo de sostenibilidad para la soberanía de comunidades vulnerables.</p>
-                                <p>
-                                    <strong>PhD.  MARCOS ALGARA SILLER</strong> <small>MEX</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>El proceso de diseño mecatrónico en ingeniería.</p>
-                                <p>
-                                    <strong>Ph.D BETSY CHAPARRO RICO</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:00 - 8:15pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Diseño de una celda combustible de hidrógeno tipo PEM como estratégia de mejoramiento ambiental.</p>
-                                <p>
-                                    <strong>Ph.D HENRY REYES PINEDA</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>La automatización industrial en el marco de la cuarta revolución industrial.</p>
-                                <p>
-                                    <strong>Msc. PABLO ERNESTO MONTALVO</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>9:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Confiabilidad humana en las empresas </p>
-                                <p>
-                                    <strong>Msc. MANUEL FERNANDO GONZALES</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>9:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Conversatorio</p>
-                                <p>
-                                    <strong></strong> <small></small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="collapse dia2-yp" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>4:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Conversatorio con investigadores</p>
-                                <p>
-                                    <strong></strong> <small></small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>La seguridad agroalimentaria como alternativa de cambio.</p>
-                                <p>
-                                    <strong>Ph.D HENRY REYES PINEDA</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Mantenimiento de sistemas electroneumáticos y olehidráulicos</p>
-                                <p>
-                                    <strong>Msc. PABLO ERNESTO MONTALVO</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:00 - 8:15pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Terotecnología</p>
-                                <p>
-                                    <strong>PhD.  ALBERTO MORA GUTIERREZ</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Diseño de sistemas de rehabilitación.</p>
-                                <p>
-                                    <strong>Ph.D BETSY CHAPARRO RICO</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>9:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Formación en  ingeniería para el liderazgo</p>
-                                <p>
-                                    <strong>Msc. MANUEL FERNANDO GONZALES</strong> <small>ECU</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>9:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Conversatorio</p>
-                                <p>
-                                    <strong></strong> <small></small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="collapse dia3-yp" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Research experience in anaerobic of wastewater and anaerobic digestion with and special emphasis in use of rural waste</p>
-                                <p>
-                                    <strong>D. ROBERTO ALVES DE OLIVEIRA</strong> <small>BRA</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Taller  Sistemas inteligentes de transporte</p>
-                                <p>
-                                    <strong>Msc. MIGUEL ÁNGEL VALENCIA</strong> <small>MEX</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:00 - 8:15pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Gestión de innovación en ciencia y tecnología para el agro.</p>
-                                <p>
-                                    <strong>Msc. LUCAS EDUARDO COSTA</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Medidas de control en software</p>
-                                <p>
-                                    <strong>Ph.D JOSE LUIS ROCA</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>9:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Conversatorio</p>
-                                <p>
-                                    <strong></strong> <small></small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>9:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Agrorobotica</p>
-                                <p>
-                                    <strong>Msc. ANDRÉS FERNANDO MOLTONI</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="collapse dia4-yp" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>4:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Conversatorio con investigadores</p>
-                                <p>
-                                    <strong></strong> <small></small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Experiencias del PROSAP en la escuela y laboratorio móvil de irrigación.</p>
-                                <p>
-                                    <strong>Msc. LUCAS EDUARDO COSTA</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Emprendimiento e innovación tecnológica para los sistemas inteligentes de transporte</p>
-                                <p>
-                                    <strong>Msc. MIGUEL ÁNGEL VALENCIA</strong> <small>MEX</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:00 - 8:15pm</time>
-                                <p>
-                                    <strong>RECESO</strong>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Confiabilidad en Ingeniería</p>
-                                <p>
-                                    <strong>Ph.D JOSE LUIS ROCA</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:15 pm</time>
-                                <p>
-                                    <small>AUDITORIO 2</small>
-                                </p>
-                                <p>Agroelectrónica</p>
-                                <p>
-                                    <strong>Msc. ANDRÉS FERNANDO MOLTONI</strong> <small>ARG</small>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="collapse dia5-yp" id="agenda">
-                <div class="timeline">
-                    <ul>
-                        <li>
-                            <div>
-                                <time>7:00 pm</time>
-                                <p>
-                                    <small>AUDITORIO 1</small>
-                                </p>
-                                <p>Seguridad en redes industriales</p>
-                                <p>
-                                    <strong>Ph.D MILTON QUIROGA BECERRA</strong> <small>COL</small>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <time>8:00</time>
-                                <p>
-                                    <strong>CLAUSURA</strong>
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-md-4 col-sm-6 footerleft ">
+                <div class="logofooter"> Logo</div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi -        110085, INDIA</p>
+                <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
+                <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
+        
             </div>
         </div>
     </div>
-</div>
-<!-- Footer -->
-
+</footer>
 
 @endsection

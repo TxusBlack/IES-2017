@@ -35,23 +35,25 @@ $('#cod_ocupacion').change(function(){
 // Dias del evento
 $(document).ready(function(){
     $(".sg").click(function(){
-        $(".dyp").collapse('hide');
-        $(".dsg").collapse('show');
-
         $(".dia2-yp").collapse('hide');
         $(".dia3-yp").collapse('hide');
         $(".dia4-yp").collapse('hide');
         $(".dia5-yp").collapse('hide');
         $(".dia1-yp").collapse('hide');
+
+        $(".dyp").collapse('hide');
+        $(".dsg").collapse('show');
+        $('.d1-sg').click();
     });
     $(".yp").click(function(){
-        $(".dsg").collapse('hide');
-        $(".dyp").collapse('show');
-
         $(".dia2-sg").collapse('hide');
         $(".dia3-sg").collapse('hide');
         $(".dia4-sg").collapse('hide');
         $(".dia1-sg").collapse('hide');
+
+        $(".dsg").collapse('hide');
+        $(".dyp").collapse('show');
+        $('.d1-yp').click();
     });
 });
 
@@ -121,3 +123,10 @@ $(document).ready(function(){
         $(".dia5-yp").collapse('show');
     });
 });
+
+// Show buttons San Gil
+$(document).ready(function(){
+	$('.sg').click();
+	$('.d1-sg').click();
+});
+

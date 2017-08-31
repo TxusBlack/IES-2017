@@ -15,6 +15,7 @@
 
     <!-- Scripts -->
     <link rel="stylesheet" href="{{ asset('js/main.js') }}">
+    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">

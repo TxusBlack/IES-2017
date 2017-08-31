@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('css/timeline.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Lightbox-Gallery.css') }}">
+    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">

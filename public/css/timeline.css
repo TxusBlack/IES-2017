@@ -3,7 +3,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #F5F8FA;
+  background: #fff;
   padding: 50px 0;
 }
 
@@ -81,7 +81,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: rgb(125,123,123);
+  background: rgb(230,230,230);
 }
 
 .timeline ul li div {
@@ -118,12 +118,12 @@ time {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 612px) {
   .timeline ul li {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 91px);
+    width: calc(100vw - 120px);
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;

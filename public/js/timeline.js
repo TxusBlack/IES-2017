@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  $(".btn-day").click(function(){
     (function() {
 
     'use strict';
@@ -34,5 +33,3 @@ $(document).ready(function(){
 
     })();
   });
-
-});
