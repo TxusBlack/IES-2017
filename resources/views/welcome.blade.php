@@ -21,12 +21,12 @@
         <div class="row">
             <div class="col-md-8">
                 <h2>El seminario</h2>
-                <p>Desde el año 2009, la Facultad de Ciencias Naturales e Ingeniería de UNISANGIL, ha organizado encuentros internacionales como parte de su misión académica, investigativa y de extensión, consciente de que la ingeniería es un área en constante evolución, y de que los crecientes avances tecnológicos que vive la humanidad, generan un sin número de posibilidades para dar valor agregado a los productos empresariales y para acrecentar la oportunidad de fomentar un desarrollo más solidario.</p>
-                <p>Los seminarios internacionales de ingeniería, como se ha denominado a dichos encuentros desde el 2013, constituyen una respuesta a esta necesidad, y posibilitan apropiar y generar aportes a la misma, teniendo presente los entornos internacionales como medio de apoyo y evaluación.</p>
+                <p class="text-justify">Desde el año 2009, la Facultad de Ciencias Naturales e Ingeniería de UNISANGIL, ha organizado encuentros internacionales como parte de su misión académica, investigativa y de extensión, consciente de que la ingeniería es un área en constante evolución, y de que los crecientes avances tecnológicos que vive la humanidad, generan un sin número de posibilidades para dar valor agregado a los productos empresariales y para acrecentar la oportunidad de fomentar un desarrollo más solidario.</p>
+                <p class="text-justify">Los seminarios internacionales de ingeniería, como se ha denominado a dichos encuentros desde el 2013, constituyen una respuesta a esta necesidad, y posibilitan apropiar y generar aportes a la misma, teniendo presente los entornos internacionales como medio de apoyo y evaluación.</p>
             </div>
             <div class="col-md-4">
                 <h3>Objetivos</h3>
-                <p>Propiciar un espacio de encuentro para la presentación, denotación, connotación y discusión de tecnologías y conocimientos científicos y matemáticos aplicados en ingeniería, para el fomento de la invención y la innovación, en relación con las necesidades del desarrollo social, económico y cultural en la región y el país.</p>
+                <p class="text-justify">Propiciar un espacio de encuentro para la presentación, denotación, connotación y discusión de tecnologías y conocimientos científicos y matemáticos aplicados en ingeniería, para el fomento de la invención y la innovación, en relación con las necesidades del desarrollo social, económico y cultural en la región y el país.</p>
             </div>
         </div>
     </div>
@@ -1538,12 +1538,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 footerleft ">
-                <div class="logofooter"> Logo</div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-                <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi -        110085, INDIA</p>
-                <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
-                <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
-        
+                <div class="logofooter"><a href="https://unisangil.edu.co/"><img src="/img/logo_Unisangil_color.png" alt="Logo Unisangil" width="70px" height="100%" class="img-responsive"></a></div>
+                <p><i class="fa fa-map-pin"></i> Km 2 via San Gil - Charalá</p>
+                <p><i class="fa fa-phone"></i> Teléfonos (7) 7245757 - 7246565</p>
+                <p><i class="fa fa-globe"></i> San Gil, Santander, Colombia</p>
             </div>
         </div>
     </div>

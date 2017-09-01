@@ -1,6 +1,10 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 .parallax { 
     /* The image used */
-    background-image: url("/img/banner.png");
+    background-image: url("/img/banner.jpg");
 
     /* Set a specific height */
     height: 480px; 
@@ -43,6 +47,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+footer {
+    background-color: #0C1A1E;
+}
+
 .linea-horizontal {
     background-color: #636b6f; 
     border: 1px solid; 
@@ -52,6 +60,20 @@ h2 {
 
 .pull-right {
     float: right !important;
+}
+
+.logofooter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footerleft p {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.footerleft {
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 991px) {
