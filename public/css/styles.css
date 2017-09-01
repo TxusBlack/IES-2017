@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #F5F8FA;
 }
 
 .parallax { 
@@ -14,6 +15,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navbar {
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .margin-playstore {
@@ -33,6 +39,7 @@ body {
     background-color: #fff;
     border-radius: 5px;
     padding-top: 1px;
+    height: 200px;
 }
 
 .myform {
@@ -62,9 +69,9 @@ footer {
     float: right !important;
 }
 
-.logofooter {
+.margin-footer {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footerleft p {
@@ -74,6 +81,26 @@ footer {
 
 .footerleft {
     padding-bottom: 10px;
+}
+
+.footerleft h4 {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.frase p {
+    font-size: 18px;
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+.photo-gallery h2 {
+    margin-top: 0px;
+}
+
+.margin-container h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -112,3 +139,35 @@ footer {
         width: 150px;
     }
 }
+
+@media screen and (max-width: 1125px) {
+    .inversion {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .inversion {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .inversion {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .inversion {
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .inversion {
+        height: 320px;
+    }
+}
+
+@media screen and ()

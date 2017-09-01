@@ -2,6 +2,7 @@
 
 @section('content')
 
+<!-- Banner -->
 <div class="container-fluid" style="padding: 0px;">
     <div class="parallax" data-bs-parallax-bg="true">
         <div class="container">
@@ -16,6 +17,7 @@
     </div>
 </div>
 
+<!-- Descripcion -->
 <div class="container-fluid background-block">
     <div class="container margin-container">
         <div class="row">
@@ -32,6 +34,7 @@
     </div>
 </div>
 
+<!-- Fotos ponentes -->
 <div class="photo-gallery">
     <div class="container">
         <h2 class="text-center">Invitados</h2>
@@ -690,7 +693,7 @@
             </div>
 <!-- Fin Modals -->
 
-<!-- Agenda -->
+<!-- Cronograma -->
 <div class="container-fluid background-block">
     <div class="container">
         <div class="margin-container">
@@ -710,35 +713,35 @@
                 <div class="collapse dsg">
                     <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
                         <label class="btn btn-default btn-day d1-sg active">
-                            <input type="radio" name="San GIl" autocomplete="off" checked> Día 1
+                            <input type="radio" name="San GIl" autocomplete="off" checked>18 de septiembre
                         </label>
                         <label class="btn btn-default btn-day d2-sg">
-                            <input type="radio" name="Yopal" autocomplete="off"> Día 2
+                            <input type="radio" name="Yopal" autocomplete="off">19 de septiembre
                         </label>
                         <label class="btn btn-default btn-day d3-sg">
-                            <input type="radio" name="Yopal" autocomplete="off"> Día 3
+                            <input type="radio" name="Yopal" autocomplete="off">20 de septiembre
                         </label>
                         <label class="btn btn-default btn-day d4-sg">
-                            <input type="radio" name="Yopal" autocomplete="off"> Día 4
+                            <input type="radio" name="Yopal" autocomplete="off">21 de septiembre
                         </label>
                     </div>
                 </div>
                 <div class="collapse dyp">
                     <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
                         <label class="btn btn-default btn-day d1-yp active">
-                            <input type="radio" name="San GIl" autocomplete="off" checked> Día 1
+                            <input type="radio" name="San GIl" autocomplete="off" checked>18 de septiembre
                         </label>
                         <label class="btn btn-default btn-day d2-yp">
-                            <input type="radio" name="Yopal" autocomplete="off"> Día 2
+                            <input type="radio" name="Yopal" autocomplete="off">19 de septiembre
                         </label>
                         <label class="btn btn-default btn-day d3-yp">
-                            <input type="radio" name="Yopal" autocomplete="off"> Día 3
+                            <input type="radio" name="Yopal" autocomplete="off">20 de septiembre
                         </label>
                         <label class="btn btn-default btn-day d4-yp">
-                            <input type="radio" name="Yopal" autocomplete="off"> Día 4
+                            <input type="radio" name="Yopal" autocomplete="off">21 de septiembre
                         </label>
                         <label class="btn btn-default btn-day d5-yp">
-                            <input type="radio" name="Yopal" autocomplete="off"> Día 5
+                            <input type="radio" name="Yopal" autocomplete="off">22 de septiembre
                         </label>
                     </div>
                 </div>
@@ -763,7 +766,7 @@
                                 </li>
                                 <li>
                                     <div>
-                                        <time>6:30 pm</time>
+                                        <time>6:00 pm</time>
                                         <p>
                                             <strong>APERTURA DEL EVENTO</strong>
                                         </p>
@@ -882,7 +885,7 @@
                                         <p>
                                             <small>COLISEO</small>
                                         </p>
-                                        <p>Modelo de sostenibilidad para para la soberania de comunidades volnerables</p>
+                                        <p>Modelo de sostenibilidad para la soberania de comunidades vulnerables</p>
                                         <p>
                                             <strong>PhD. Marcos Algara Siller</strong> <small>MEX</small>
                                         </p>
@@ -1044,7 +1047,7 @@
                                         </p>
                                         <p>Inventario cero</p>
                                         <p>
-                                            <strong>Ph.D Alberto Mora Gutierrez</strong>COL<small></small>
+                                            <strong>Ph.D Alberto Mora Gutierrez </strong>COL<small></small>
                                         </p>
                                     </div>
                                 </li>
@@ -1066,7 +1069,7 @@
                                         <p>
                                             <small>AUDITORIO</small>
                                         </p>
-                                        <p>Tecnología</p>
+                                        <p>Terotecnología</p>
                                         <p>
                                             <strong>Ph.D Alberto Mora Gutierrez</strong> <small>COL</small>
                                         </p>
@@ -1492,42 +1495,26 @@
     <div class="container margin-container">
         <div class="row">
             <h2 class="text-center">Inversión</h3>
-            <div class="col-lg-6 margin-container">
+            <div class="col-lg-6 col-lg-offset-3">
                 <div class="col-lg-12 inversion">
-                    <h3 class="text-center">Estudiantes, Egresados, Docentes e Instituciones en Convenio con UNISANGIL</h3>
+                    <h3 class="text-center">Estudiantes, Egresados, Docentes de UNISANGIL y Particulares</h3>
                     <div class="col-lg-10 col-lg-offset-1 linea-horizontal"></div>
-                    <div class="col-lg-6">
-                        <h4 class="text-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h4 class="text-center"><strong>Con descuento: $150.000</strong></h4>
+                        {{-- <h4 class="text-center">
                             <strong>$150.000</strong>
-                        </h4>
-                        <p class="text-justify">Descuento válido hasta antes del 1 de septiembre de 2017. Si te preincribes puedes pagar hasta el 10 de septiembre.</p>
+                        </h4> --}}
+                        <p class="text-center">Válido hasta el 9 de septiembre de 2017.</p>
                     </div>
-                    <div class="col-lg-6">
-                        <h4 class="text-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h4 class="text-center"><strong>Inscripción: $180.000</strong></h4>
+                        {{-- <h4 class="text-center">
                             <strong>$180.000</strong>
-                        </h4>
-                        <p class="text-justify">Valor de la entrada válido desde del 1 de septiembre de 2017 hasta el 18 de septiembre.</p>
+                        </h4> --}}
+                        <p class="text-center">Desde el 10 de septiembre de 2017 hasta el 18 de septiembre 12:00 m.</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 margin-container">
-                <div class="col-lg-12 inversion">
-                    <h3 class="text-center">Particulares externos a<br>UNISANGIL</h3>
-                    <div class="col-lg-10 col-lg-offset-1 linea-horizontal"></div>
-                    <div class="col-lg-6">
-                        <h4 class="text-center">
-                            <strong>$200.000</strong>
-                        </h4>
-                        <p class="text-justify">Descuento válido hasta antes del 1 de septiembre de 2017. Si te preincribes puedes pagar hasta el 10 de septiembre.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <h4 class="text-center">
-                            <strong>$250.000</strong>
-                        </h4>
-                        <p class="text-justify">Valor de la entrada válido desde del 1 de septiembre de 2017 hasta el 18 de septiembre.</p>
-                    </div>
-                </div>
-                <a class="btn btn-primary pull-right" style="margin-top: 20px" href="{{ route('register') }}">Registrate aquí</a>
+            <a class="btn btn-primary pull-right" style="margin-top: 20px" href="{{ route('register') }}">Registrate aquí</a>
             </div>
         </div>
     </div>
@@ -1536,12 +1523,24 @@
 <!-- Footer -->
 <footer>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6 footerleft ">
-                <div class="logofooter"><a href="https://unisangil.edu.co/"><img src="/img/logo_Unisangil_color.png" alt="Logo Unisangil" width="70px" height="100%" class="img-responsive"></a></div>
+        <div class="row margin-footer">
+            <div class="col-lg-1 col-md-2 col-sm-3 footerleft ">
+                <div><a href="http://unisangil.edu.co/"><img src="/img/logo_Unisangil_color.png" alt="Logo Unisangil" width="70px" height="100%" class="img-responsive"></a></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 footerleft">
                 <p><i class="fa fa-map-pin"></i> Km 2 via San Gil - Charalá</p>
                 <p><i class="fa fa-phone"></i> Teléfonos (7) 7245757 - 7246565</p>
+                <p><i class="fa fa-envelope"></i><a href="mailto:ies@unisangil.edu.co" style="text-decoration:none; color: #fff"> ies@unisangil.edu.co</a></p>
                 <p><i class="fa fa-globe"></i> San Gil, Santander, Colombia</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 footerleft">
+                <p><i class="fa fa-map-pin"></i> Calle 7 No. 20 – 63</p>
+                <p><i class="fa fa-phone"></i> Teléfonos 6324178 - 6324526</p>
+                <p><i class="fa fa-envelope"></i><a href="mailto:wgomez@unisangil.edu.co" style="text-decoration:none; color: #fff"> wgomez@unisangil.edu.co</a></p>
+                <p><i class="fa fa-globe"></i> Yopal, Casanare, Colombia</p>
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs footerleft frase">
+                <p> Si buscas resultados diferentes, no hagas lo mismo.</p>
             </div>
         </div>
     </div>
