@@ -40,32 +40,32 @@
         <h2 class="text-center">Invitados</h2>
         <div class="row photos">
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#José_Luis_Roca" data-lightbox="photos"><img src="{{ asset('/img/ponentes/jose1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#José_Luis_Roca" data-lightbox="photos"><img src="{{ asset('/img/ponentes/jose1.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
                 <a data-toggle="modal" href="#Lucas_Costa" data-lightbox="photos"><img src="{{ asset('/img/ponentes/lucas.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Andrés_Moltoni" data-lightbox="photos"><img src="{{ asset('/img/ponentes/andres1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Andrés_Moltoni" data-lightbox="photos"><img src="{{ asset('/img/ponentes/andres1.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Henry_Reyes" data-lightbox="photos"><img src="{{ asset('/img/ponentes/henry1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Henry_Reyes" data-lightbox="photos"><img src="{{ asset('/img/ponentes/henry1.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Milton_Quiroga_Becerra" data-lightbox="photos"><img src="{{ asset('/img/ponentes/milton1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Milton_Quiroga_Becerra" data-lightbox="photos"><img src="{{ asset('/img/ponentes/milton1.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Alberto_Mora_Gutiérrez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/alberto1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Alberto_Mora_Gutiérrez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/alberto1.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Roberto_Alves_de_Oliveira" data-lightbox="photos"><img src="{{ asset('/img/ponentes/roberto1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Roberto_Alves_de_Oliveira" data-lightbox="photos"><img src="{{ asset('/img/ponentes/roberto1.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Manual_Fernando_Gonzalez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/manual1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Manual_Fernando_Gonzalez" data-lightbox="photos"><img src="{{ asset('/img/ponentes/manual1.jpg/') }}" class="img-responsive" /></a>
             </div><div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Pablo_Ernesto_Montalvo" data-lightbox="photos"><img src="{{ asset('/img/ponentes/pablo1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Pablo_Ernesto_Montalvo" data-lightbox="photos"><img src="{{ asset('/img/ponentes/pablo1.jpg/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Marcos_Algara_Siller" data-lightbox="photos"><img src="{{ asset('/img/ponentes/marcos1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Marcos_Algara_Siller" data-lightbox="photos"><img src="{{ asset('/img/ponentes/marcos1.jpg/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Betsy_Chaparro_Rico" data-lightbox="photos"><img src="{{ asset('/img/ponentes/betsy1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Betsy_Chaparro_Rico" data-lightbox="photos"><img src="{{ asset('/img/ponentes/betsy1.jpg/') }}" class="img-responsive" /></a>
             </div>
             <div class="col-lg-2 col-lg-offset-0 col-md-4 col-sm-4 col-xs-6 item ponentes">
-                <a data-toggle="modal" href="#Miguel_Ángel_Valencia" data-lightbox="photos"><img src="{{ asset('/img/ponentes/miguel1.png/') }}" class="img-responsive" /></a>
+                <a data-toggle="modal" href="#Miguel_Ángel_Valencia" data-lightbox="photos"><img src="{{ asset('/img/ponentes/miguel1.jpg/') }}" class="img-responsive" /></a>
             </div>
         </div>
     </div>
