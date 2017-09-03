@@ -80,13 +80,13 @@
                                     ×
                                 </button>
                                 <h2>
-                                    Msc. Manuel Fernando Gonzalez
+                                    Msc. Manuel Fernando Gonzalez Puente
                                 </h2>
                             </div>
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/manual1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/manual1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -106,6 +106,7 @@
                                                 Escuela Superior Politécnica de Chimborazo, ESPOCH
                                             </strong>
                                         </p>
+                                        <p><strong>País del ponente:</strong> Ecuador</p>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +127,7 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/jose1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/jose1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -153,6 +154,7 @@
                                         Medidas de Complejidad en
                                         Software.
                                         </strong>
+                                        <p><strong>País del ponente:</strong> Argentina</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,38 +175,28 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/andres1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/andres1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Magíster en Ingeniería de las Telecomunicaciones,
-                                                                                                            Instituto Tecnológico de Buenos Aires.
+                                                Magíster en Ingeniería de las Telecomunicaciones, Instituto Tecnológico de Buenos Aires.
                                             </p>
                                             <p>
                                                 Ingeniero Electrónico, Universidad Tecnológica Nacional
                                             </p>
                                             <p>
-                                                Investigador a cargo del Laboratorio de Electrónica del
-                                                                    Instituto de Ingeniería Rural
+                                                Investigador a cargo del Laboratorio de Electrónica del Instituto de Ingeniería Rural
                                             </p>
                                             <p>
-                                                Coordinador del Modulo de In Agro robótica y, Agro electrónica
-                                                                                                        novaciones Agroelectrónicas para el Desarrollo
-                                                                                                        Sustentable del Proyecto Nacional de Mecanización para
-                                                                                                        el Desarrollo Territorial Sustentable.
+                                                Coordinador del Modulo de In Agro robótica y, Agro electrónica novaciones Agroelectrónicas para el Desarrollo Sustentable del Proyecto Nacional de Mecanización para el Desarrollo Territorial Sustentable.
                                             </p>
                                             <p>
-                                                Director de grupo en el proyecto ENARSOL del Fondo de
-                                                                    Innovación Tecnológica Sectorial de Energía (Fits
-                                                                    Energía) financiado por el BID.
+                                                Director de grupo en el proyecto ENARSOL del Fondo de Innovación Tecnológica Sectorial de Energía (Fits Energía) financiado por el BID.
                                             </p>
                                             <p>
-                                                Docente en la Universidad Nacional de Moreno
-                                                                                                            Coordinador del Programa Especial para la Investigación
-                                                                                                            y el Desarrollo de la Electrónica Aplicada al Agro, en la
-                                                                                                            UNM.
+                                                Docente en la Universidad Nacional de Moreno Coordinador del Programa Especial para la Investigación y el Desarrollo de la Electrónica Aplicada al Agro, en la UNM.
                                             </p>
                                             <strong>
                                                 Agro robótica
@@ -212,6 +204,7 @@
                                                     Agro electrónica.
                                                 </br>
                                             </strong>
+                                            <p><strong>País del ponente:</strong> Argentina</p>
                                         </p>
                                     </div>
                                 </div>
@@ -239,36 +232,29 @@
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Magister Internacionalización del Desarrollo Local
-                                                                                Universidad de Bolognia, Italia
+                                                Magister Internacionalización del Desarrollo Local Universidad de Bolognia, Italia
                                             </p>
                                             <p>
-                                                MBA Gestión de Innovación en Ciencia y Tecnología
-                                        Fundación Getulio Vargas, Brasil
+                                                MBA Gestión de Innovación en Ciencia y Tecnología Fundación Getulio Vargas, Brasil
                                             </p>
                                             <p>
-                                                Especialización en Riego y Drenaje
-                                        Universidad de Cuyo, Argentina
+                                                Especialización en Riego y Drenaje Universidad de Cuyo, Argentina
                                             </p>
                                             <p>
-                                                Ingeniero Agrónomo
-                                        Universidad de Buenos Aíres
+                                                Ingeniero Agrónomo Universidad de Buenos Aíres
                                             </p>
                                             <p>
-                                                Coordinador sector Transferencia de Tecnología
-                                        Programa de Servicios Agrícolas Provinciales - PROSAP
-                                        Ministerio de Agroindustria - Argentina
+                                                Coordinador sector Transferencia de Tecnología Programa de Servicios Agrícolas Provinciales - PROSAP Ministerio de Agroindustria - Argentina
                                             </p>
                                             <p>
                                                 <strong>
-                                                    Gestión de Innovación en Ciencia y Tecnología para
-                                                                                    el Agro
+                                                    Gestión de Innovación en Ciencia y Tecnología para el Agro
                                                 </strong>
                                             </p>
                                             <strong>
-                                                Experiencias del PROSAP en la Escuela y Laboratorio
-                                        Móvil de irrigación
+                                                Experiencias del PROSAP en la Escuela y Laboratorio Móvil de irrigación
                                             </strong>
+                                            <p><strong>País del ponente:</strong> Argentina</p>
                                         </p>
                                     </div>
                                 </div>
@@ -290,38 +276,29 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/henry1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/henry1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Doctor en Tecnologias de Membranas
-                                            Eletroquímicas, Universidad Politécnica de
-                                            Valencia, UPV, Tesis Sobresaliente, Distinción
-                                            Cum Laudem.
+                                                Doctor en Tecnologias de Membranas Eletroquímicas, Universidad Politécnica de Valencia, UPV, Tesis Sobresaliente, Distinción Cum Laudem.
                                             </p>
                                             <p>
-                                                Magister y Especialista en Tecnologías de
-                                        Membranas Electroquímicas, UPV
-                                        Especialista en Educación Ambiental,
-                                        UNIBOSQUE
+                                                Magister y Especialista en Tecnologías de Membranas Electroquímicas, UPV Especialista en Educación Ambiental, UNIBOSQUE
                                             </p>
                                             <p>
-                                                Decano Facultad de Ciencias Agroindustriales
-                                        Universidad del Quindío
+                                                Decano Facultad de Ciencias Agroindustriales Universidad del Quindío
                                             </p>
                                             <p>
                                                 <strong>
-                                                    Diseño de una celda combustible de
-                                            hidrógeno tipo PEM como estrategia de
-                                            mejoramiento ambiental.
+                                                    Diseño de una celda combustible de hidrógeno tipo PEM como estrategia de mejoramiento ambiental.
                                                 </strong>
                                             </p>
                                             <strong>
-                                                La seguridad agroalimentaria como
-                                                                            alternativa de cambio.
+                                                La seguridad agroalimentaria como alternativa de cambio.
                                             </strong>
+                                            <p><strong>País del ponente:</strong> Colombia</p>
                                         </p>
                                     </div>
                                 </div>
@@ -343,27 +320,22 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/milton1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/milton1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                PhD and Master in Engineering, “with
-                                                                                University Honors” – Carnegie Mellon
-                                                                                University.
+                                                PhD and Master in Engineering, “with University Honors” – Carnegie Mellon University.
                                             </p>
                                             <p>
-                                                Magister en Ingeniería de Sistemas,
-                                        Universidad de Los Andes
+                                                Magister en Ingeniería de Sistemas, Universidad de Los Andes
                                             </p>
                                             <p>
-                                                Ingeniero de Sistemas – Universidad
-                                        Industrial de Santander
+                                                Ingeniero de Sistemas – Universidad Industrial de Santander
                                             </p>
                                             <p>
-                                                Manager CyberTech de Colombia Ltd
-                                        Professor at Universidad de los Andes
+                                                Manager CyberTech de Colombia Ltd Professor at Universidad de los Andes
                                             </p>
                                             <p>
                                                 <strong>
@@ -373,6 +345,7 @@
                                             <strong>
                                                 Seguridad en Redes Industriales.
                                             </strong>
+                                            <p><strong>País del ponente:</strong> Colombia</p>
                                         </p>
                                     </div>
                                 </div>
@@ -388,21 +361,19 @@
                                     ×
                                 </button>
                                 <h2 class="text-center">
-                                    PhD Alberto Mora Gutiérrez
+                                    PhD. Luis Alberto Mora Gutiérrez
                                 </h2>
                             </div>
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/alberto1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/alberto1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Doctor en Ingeniería Industrial - Ph.D. Gestión
-                                        Empresarial, Universidad Politécnica de Valencia,
-                                        UPV
+                                                Doctor en Ingeniería Industrial - PhD. Gestión Empresarial, Universidad Politécnica de Valencia, UPV
                                             </p>
                                             <p>
                                                 Especialista en Gestión Industrial, UPV
@@ -414,26 +385,21 @@
                                                 Especialista en Mercadeo, EAFIT
                                             </p>
                                             <p>
-                                                Magister en Administración de Negocios,
-                                        Universidad de Carabobo
+                                                Magister en Administración de Negocios, Universidad de Carabobo
                                             </p>
                                             <p>
-                                                Ingeniero en Ciencias Mecánicas, UPB
-                                        CEO - Representante Legal – Fundador CIMPRO
-                                        SAS
+                                                Ingeniero en Ciencias Mecánicas, UPB CEO - Representante Legal – Fundador CIMPRO SAS
                                             </p>
                                             <p>
-                                                Profesor Investigador, Director del Postgrado en
-                                        Mantenimiento Industrial de la Escuela de
-                                        Ingeniería, Universidad EAFIT
+                                                Profesor Investigador, Director del Postgrado en Mantenimiento Industrial de la Escuela de Ingeniería, Universidad EAFIT
                                             </p>
                                             <p>
-                                                Autor de los libros: Mantenimiento-Planeación
-                                        Ejecución y Control, e Inventario Cero
+                                                Autor de los libros: Mantenimiento-Planeación Ejecución y Control, e Inventario Cero
                                             </p>
                                             <strong>
                                                 Terotecnología
                                             </strong>
+                                            <p><strong>País del ponente:</strong> Colombia</p>
                                         </p>
                                     </div>
                                 </div>
@@ -455,33 +421,24 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/roberto1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/roberto1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Doctor en Ingeniería Hidráulica y
-                                                                                Sanitaria, Escuela de Ingeniería de San
-                                                                                Carlos Universidad de San Pablo, Brasil
+                                                Doctor en Ingeniería Hidráulica y Sanitaria, Escuela de Ingeniería de San Carlos Universidad de San Pablo, Brasil
                                             </p>
                                             <p>
-                                                Coordinator Postgraduate Program in
-                                        Agricultural Microbiology
-                                        Director Environmental Sanitation
-                                        Laboratory
+                                                Coordinator Postgraduate Program in Agricultural Microbiology Director Environmental Sanitation Laboratory
                                             </p>
                                             <p>
-                                                Department of Rural Engineering
-                                        Universidade Estadual Paulista
-                                        Campus Jaboticabal
+                                                Department of Rural Engineering Universidade Estadual Paulista Campus Jaboticabal
                                             </p>
                                             <strong>
-                                                Research experience in anaerobic
-                                        treatment of wastewater and
-                                        anaerobic digestion with and special
-                                        emphasis in use of rural waste
+                                                Research experience in anaerobic treatment of wastewater and anaerobic digestion with and special emphasis in use of rural waste
                                             </strong>
+                                            <p><strong>País del ponente:</strong> Brasil</p>
                                         </p>
                                     </div>
                                 </div>
@@ -497,57 +454,47 @@
                                     ×
                                 </button>
                                 <h2 class="text-center">
-                                    Msc. Pablo Ernesto Montalvo
+                                    Msc. Pablo Ernesto Montalvo Jaramillo
                                 </h2>
                             </div>
                             <div class="modal-body">
                                 <div class="col-md-6">
-                                    <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/pablo1.png/') }}">
+                                    <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/pablo1.jpg/') }}">
                                     </img>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Msc. Sistemas de Control y Automatización Industrial,
-                                        Escuela Superior Politécnica de Chimborazo, ESPOCH,
-                                        Ecuador
+                                                Msc. Sistemas de Control y Automatización Industrial, Escuela Superior Politécnica de Chimborazo, ESPOCH, Ecuador
                                             </p>
                                             <p>
-                                                Msc. Educación Universitaria y Administración Educativa,
-                                        Universidad Tecnológica Indoamérica
-                                        Ambato, Ecuador
+                                                Msc. Educación Universitaria y Administración Educativa, Universidad Tecnológica Indoamérica Ambato, Ecuador
                                             </p>
                                             <p>
-                                                Experto en Procesos Elearning, FATLA (Fundación para
-                                        la Actualización Tecnológica de Latinoamérica)
+                                                Experto en Procesos Elearning, FATLA (Fundación para la Actualización Tecnológica de Latinoamérica)
                                             </p>
                                             <p>
-                                                Ingeniero Industrial
-                                        Universidad Tecnológica Indoamérica
+                                                Ingeniero Industrial Universidad Tecnológica Indoamérica
                                             </p>
                                             <p>
-                                                Ingeniero Electromecánico
-                                        Escuela Superior Politécnica del Ejército
+                                                Ingeniero Electromecánico Escuela Superior Politécnica del Ejército
                                             </p>
                                             <p>
                                                 Profesor Facultad de Mecánica, ESPOCH
                                             </p>
                                             <p>
-                                                Profesor Escuela de Diseño Industrial
-                                        Pontificia Universidad Católica del Ecuador, PUCE, Sede
-                                        Ambato
+                                                Profesor Escuela de Diseño Industrial Pontificia Universidad Católica del Ecuador, PUCE, Sede Ambato
                                             </p>
                                             <p>
                                                 <strong>
-                                                    La automatización industrial en el marco de la cuarta
-                                                                                        revolución industrial
+                                                    La automatización industrial en el marco de la cuarta revolución industrial
                                                 </strong>
                                             </p>
                                             <strong>
-                                                Mantenimiento de sistemas Electroneumáticos y
-                                                                            Olehidráulicos
+                                                Mantenimiento de sistemas Electroneumáticos y Olehidráulicos
                                             </strong>
+                                            <p><strong>País del ponente:</strong> Ecuador</p>
                                         </p>
                                     </div>
                                 </div>
@@ -569,30 +516,21 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/marcos1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/marcos1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                Doctor en Ciencias Ambientales, Universidad
-                                                                        Autónoma de San Luis Potosí (UASLP)
-                                                                        Magister en ciencias de la ingeniería,
-                                                                        Universidad de Western Ontario (Canadá)
-                                                                        Miembro del Sistema Nacional de
-                                                                        Investigadores (SNI), México.
+                                                Doctor en Ciencias Ambientales, Universidad Autónoma de San Luis Potosí (UASLP) Magister en ciencias de la ingeniería, Universidad de Western Ontario (Canadá) Miembro del Sistema Nacional de Investigadores (SNI), México.
                                             </p>
                                             <p>
-                                                Profesor investigador del Área de Ciencias de
-                                        la Tierra, y de la Maestría en Tecnología y
-                                        Gestión del Agua, de la Facultad de Ingeniería
-                                        de la UASLP, México.
+                                                Profesor investigador del Área de Ciencias de la Tierra, y de la Maestría en Tecnología y Gestión del Agua, de la Facultad de Ingeniería de la UASLP, México.
                                             </p>
                                             <strong>
-                                                Modelo de sostenibilidad para la
-                                                                            soberanía de comunidades
-                                                                            vulnerables
+                                                Modelo de sostenibilidad para la soberanía de comunidades vulnerables.
                                             </strong>
+                                            <p><strong>País del ponente:</strong> México</p>
                                         </p>
                                     </div>
                                 </div>
@@ -608,24 +546,22 @@
                                     ×
                                 </button>
                                 <h2 class="text-center">
-                                    PhD (C) Betsy Chaparro Rico
+                                    Msc, PhD E. Betsy Dayana Chaparro Rico
                                 </h2>
                             </div>
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/betsy1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/betsy1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
                                         <p class="text-center">
                                             <p>
-                                                PhD Student at INSTITUTO POLITECNICO
-                                                                        NACIONAL, IPN, México
+                                                PhD Student at INSTITUTO POLITECNICO NACIONAL, IPN, México
                                             </p>
                                             <p>
-                                                PhD Student at University of Cassino And
-                                        Southern Latium, Italia
+                                                PhD Student at University of Cassino And Southern Latium, Italia
                                             </p>
                                             <p>
                                                 Master in Advanced Technology, IPN, México
@@ -637,14 +573,13 @@
                                             </p>
                                             <p>
                                                 <strong>
-                                                    El proceso de diseño
-                                                                                mecatrónico en ingeniería
+                                                    El proceso de diseño mecatrónico en ingeniería
                                                 </strong>
                                             </p>
                                             <strong>
-                                                Diseño de sistemas de
-                                                                            rehabilitación.
+                                                Diseño de sistemas de rehabilitación.
                                             </strong>
+                                            <p><strong>País de la ponente:</strong> Colombia</p>
                                         </p>
                                     </div>
                                 </div>
@@ -666,7 +601,7 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/miguel1.png/') }}">
+                                        <img alt="" class="img-responsive" src="{{ asset('/img/ponentes/miguel1.jpg/') }}">
                                         </img>
                                     </div>
                                     <div class="col-md-6">
@@ -683,6 +618,7 @@
                                             </p>
                                             <strong> Emprendimiento e Innovación tecnológica para los Sistemas Inteligentes de Transporte.
                                             </strong>
+                                            <p><strong>País del ponente:</strong> México</p>
                                         </p>
                                     </div>
                                 </div>
