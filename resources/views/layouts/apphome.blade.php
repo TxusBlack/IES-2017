@@ -14,9 +14,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-    <!-- Scripts -->
-    <link rel="stylesheet" href="{{ asset('js/main.js') }}">
 </head>
 <body>
     <div id="app">
@@ -51,25 +48,20 @@
                             <li><a href="{{ route('login') }}">Ingresar</a></li>
                             <li><a href="{{ route('register') }}">Registrar</a></li>
                         @else
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                            <a class="navbar-brand" style="font-size: 14px;" href="{{ url('/') }}">
+                                Inicio
+                            </a>
+                            <li>
+                                <a href="{{ route('logout') }}"
+                                    onclick="event.preventDefault();
+                                             document.getElementById('logout-form').submit();">
+                                    Cerrar sesión
                                 </a>
-
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <a href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            Logout
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
-                                    </li>
-                                </ul>
                             </li>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                {{ csrf_field() }}
+                            </form>
                         @endif
                     </ul>
                 </div>
@@ -81,6 +73,5 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>

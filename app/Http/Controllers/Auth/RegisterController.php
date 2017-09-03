@@ -61,6 +61,7 @@ class RegisterController extends Controller
             'password' => 'required|string|min:6|confirmed',
             'estado_cuenta' => 'string',
             'ciudad' => 'required|string',
+            'pago_monto' => 'string',
         ]);
     }
 
@@ -86,6 +87,7 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
             'estado_cuenta' => 'Pre-inscrito',
             'ciudad' => $data['ciudad'],
+            'pago_monto' => '$150.000',
         ]);
     }
 }

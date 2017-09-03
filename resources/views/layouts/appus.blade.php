@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 
     <!-- Scripts -->
-    <link rel="stylesheet" href="{{ asset('js/main.js') }}">
     <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
