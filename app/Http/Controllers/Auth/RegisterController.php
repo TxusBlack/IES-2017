@@ -62,6 +62,7 @@ class RegisterController extends Controller
             'estado_cuenta' => 'string',
             'ciudad' => 'required|string',
             'pago_monto' => 'string',
+            'fecha_lim_pago' => 'string',
         ]);
     }
 
@@ -88,6 +89,7 @@ class RegisterController extends Controller
             'estado_cuenta' => 'Pre-inscrito',
             'ciudad' => $data['ciudad'],
             'pago_monto' => '$150.000',
+            'fecha_lim_pago' => '9 de Septiembre de 2017',
         ]);
     }
 }
