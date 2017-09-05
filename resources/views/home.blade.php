@@ -59,7 +59,7 @@
                     @endif
 
                     <div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 20px;">
-                        <p>Una vez realizado el pago no olvides dejar tu recibo de confirmación en la Tesorería de UNISANGIL para <strong>validar y generar tu código QR.</strong></p>
+                        <p>Una vez realizado el pago no olvides dejar tu recibo de consignación en la Tesorería de UNISANGIL para <strong>validar y generar tu código QR.</strong></p>
                         
                         Recuerda que deberás presentar tu código QR al ingresar y salir del evento, recomendamos imprimir el código por si tu celular se descarga o se apaga.
                     </div>

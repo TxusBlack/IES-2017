@@ -809,7 +809,7 @@
                                         <p>
                                             <small>AUDITORIO</small>
                                         </p>
-                                        <p>Emprendimiento e innovacion tecnologica para los sistemas inteligentes de transporte</p>
+                                        <p>Emprendimiento e innovación tecnológica para los sistemas inteligentes de transporte</p>
                                         <p>
                                             <strong>Miguel Ángel Valencia</strong> <small>MEX</small>
                                         </p>
@@ -821,7 +821,7 @@
                                         <p>
                                             <small>COLISEO</small>
                                         </p>
-                                        <p>Modelo de sostenibilidad para la soberania de comunidades vulnerables</p>
+                                        <p>Modelo de sostenibilidad para la soberanía de comunidades vulnerables</p>
                                         <p>
                                             <strong>PhD. Marcos Algara Siller</strong> <small>MEX</small>
                                         </p>
@@ -833,7 +833,7 @@
                                         <p>
                                             <small>AUDITORIO</small>
                                         </p>
-                                        <p>Contabilidad en ingenieria</p>
+                                        <p>Confiabilidad en ingeniería</p>
                                         <p>
                                             <strong>Ph.D José Luis Roca</strong> <small>ARG</small>
                                         </p>
@@ -853,7 +853,7 @@
                                         <p>
                                             <small>COLISEO</small>
                                         </p>
-                                        <p>Gestión de innovacion en ciencia y tecnología para el agro</p>
+                                        <p>Gestión de innovación en ciencia y tecnología para el agro</p>
                                         <p>
                                             <strong>Msc. Lucas Eduardo Costa</strong> <small>ARG</small>
                                         </p>
@@ -1450,7 +1450,7 @@
                         <p class="text-center">Desde el 10 de septiembre de 2017 hasta el 18 de septiembre 12:00 m.</p>
                     </div>
                 </div>
-            <a class="btn btn-primary pull-right" style="margin-top: 20px" href="{{ route('register') }}">Registrate aquí</a>
+            <a class="btn btn-primary pull-right" style="margin-top: 20px" href="{{ route('register') }}">Regístrate aquí</a>
             </div>
         </div>
     </div>
@@ -1464,7 +1464,7 @@
                 <div><a href="http://unisangil.edu.co/"><img src="/img/logo_Unisangil_color.png" alt="Logo Unisangil" width="70px" height="100%" class="img-responsive"></a></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 footerleft">
-                <p><i class="fa fa-map-pin"></i> Km 2 via San Gil - Charalá</p>
+                <p><i class="fa fa-map-pin"></i> Km 2 vía San Gil - Charalá</p>
                 <p><i class="fa fa-phone"></i> Teléfonos (7) 7245757 - 7246565</p>
                 <p><i class="fa fa-envelope"></i><a href="mailto:ies@unisangil.edu.co" style="text-decoration:none; color: #fff"> ies@unisangil.edu.co</a></p>
                 <p><i class="fa fa-globe"></i> San Gil, Santander, Colombia</p>

@@ -1,0 +1,9 @@
+[24-Aug-2017 12:58:14 America/Bogota] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/DBOperations.php on line 106
+[24-Aug-2017 12:58:41 America/Bogota] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/DBOperations.php on line 106
+[24-Aug-2017 15:07:36 America/Bogota] PHP Fatal error:  Call to undefined method Functions::getMsgParamNotEmpty() in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/Functions.php on line 103
+[24-Aug-2017 15:08:50 America/Bogota] PHP Fatal error:  Call to undefined method Functions::getMsgParamNotEmpty() in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/Functions.php on line 103
+[24-Aug-2017 15:12:29 America/Bogota] PHP Fatal error:  Call to undefined method Functions::getMsgParamNotEmpty() in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/Functions.php on line 103
+[30-Aug-2017 00:25:08 America/Bogota] PHP Fatal error:  Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/Functions.php on line 137
+[30-Aug-2017 00:28:25 America/Bogota] PHP Fatal error:  Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/Functions.php on line 27
+[30-Aug-2017 00:28:27 America/Bogota] PHP Fatal error:  Class 'PHPMailer\PHPMailer\PHPMailer' not found in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/Functions.php on line 27
+[30-Aug-2017 01:24:03 America/Bogota] PHP Parse error:  syntax error, unexpected 'Open' (T_STRING) in /home/grupohyd/public_html/ies.grupohydraunisangil.com/api/Functions.php on line 193
