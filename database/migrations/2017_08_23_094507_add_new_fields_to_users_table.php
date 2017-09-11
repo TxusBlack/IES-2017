@@ -23,6 +23,10 @@ class AddNewFieldsToUsersTable extends Migration
                 $table->string('semestre');
             $table->string('telefono');
             $table->string('estado_cuenta');
+            $table->string('qr_code');
+            $table->string('url_qr');
+            $table->string('pago_monto');
+            $table->string('fecha_lim_pago');
 
             /**
             $table->string('fecha_creacion');
@@ -52,6 +56,10 @@ class AddNewFieldsToUsersTable extends Migration
                 $table->dropColumn('semestre');
             $table->dropColumn('telefono');
             $table->dropColumn('estado_cuenta');
+            $table->dropColumn('qr_code');
+            $table->dropColumn('url_qr');
+            $table->dropColumn('pago_monto');
+            $table->dropColumn('fecha_lim_pago');
 
             /**
             $table->dropColumn('fecha_creacion');

@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-md-8">
                 <h2>El seminario</h2>
-                <p class="text-justify">La Facultad de Ciencias Naturales e Ingeniería de UNISANGIL, desde el año 2009 ha organizado encuentros internacionales como parte de su misión académica, investigativa y de extensión, consciente de que la ingeniería es un área en constante evolución, y de que los crecientes avances tecnológicos que vive la humanidad, generan un sin número de posibilidades para dar valor agregado a los productos empresariales y para acrecentar la oportunidad de fomentar un desarrollo más solidario.</p>
+                <p class="text-justify">Desde el año 2009, la Facultad de Ciencias Naturales e Ingeniería de UNISANGIL, ha organizado encuentros internacionales como parte de su misión académica, investigativa y de extensión, consciente de que la ingeniería es un área en constante evolución, y de que los crecientes avances tecnológicos que vive la humanidad, generan un sin número de posibilidades para dar valor agregado a los productos empresariales y para acrecentar la oportunidad de fomentar un desarrollo más solidario.</p>
                 <p class="text-justify">Los seminarios internacionales de ingeniería, como se ha denominado a dichos encuentros desde el 2013, constituyen una respuesta a esta necesidad, y posibilitan apropiar y generar aportes a la misma, teniendo presente los entornos internacionales como medio de apoyo y evaluación.</p>
             </div>
             <div class="col-md-4">
@@ -93,7 +93,7 @@
                                         <p>
                                             Msc. Gestión de la Educación, Universidad Regional de los Andes, Ecuador.
                                         </p>
-                                        <p>
+                                            <p>
                                             Especialista en Diseño Curricular, U. Regional de los Andes, Ecuador.
                                         </p>
                                         <p>
@@ -637,10 +637,10 @@
                 <h2 class="text-center">Cronograma</h2>
                 <div class="btn-group btn-group-justified" role="group" data-toggle="buttons">
                     <label class="btn btn-primary active sg">
-                        <input type="radio" name="San Gil" autocomplete="off" checked> San Gil
+                        <input type="radio" name="sede" autocomplete="off" value="sangil"> San Gil
                     </label>
                     <label class="btn btn-primary yp">
-                        <input type="radio" name="Yopal" autocomplete="off"> Yopal
+                        <input type="radio" name="sede" autocomplete="off" value="yopal"> Yopal
                     </label>
                 </div>
 
@@ -724,7 +724,7 @@
                                     <div>
                                         <time>7:30 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Ciberseguridad</p>
                                         <p>
@@ -756,7 +756,7 @@
                                     <div>
                                         <time>8:45 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Medidas de complejidad en software</p>
                                         <p>
@@ -774,7 +774,7 @@
                                     <div>
                                         <time>4:00 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO MENOR</small>
                                         </p>
                                         <p><strong>Conversatorio con investigadores</strong></p>
                                     </div>
@@ -807,7 +807,7 @@
                                     <div>
                                         <time>6:30 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Emprendimiento e innovación tecnológica para los sistemas inteligentes de transporte</p>
                                         <p>
@@ -831,7 +831,7 @@
                                     <div>
                                         <time>7:30 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Confiabilidad en ingeniería</p>
                                         <p>
@@ -863,7 +863,7 @@
                                     <div>
                                         <time>8:45 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Agrorobótica</p>
                                         <p>
@@ -905,7 +905,7 @@
                                     <div>
                                         <time>7:30 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Contabilidad humana en las empresas</p>
                                         <p>
@@ -937,7 +937,7 @@
                                     <div>
                                         <time>8:45 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Mantenimiento de sistemas electroneumáticos y olehidráulicos</p>
                                         <p>
@@ -955,7 +955,7 @@
                                     <div>
                                         <time>4:00 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>Auditorio Menor</small>
                                         </p>
                                         <p>Conversatorio con investigadores</p>
                                         <p>
@@ -979,7 +979,7 @@
                                     <div>
                                         <time>6:30 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Inventario cero</p>
                                         <p>
@@ -1003,7 +1003,7 @@
                                     <div>
                                         <time>7:30 pm</time>
                                         <p>
-                                            <small>AUDITORIO UNISANGIL</small>
+                                            <small>AUDITORIO</small>
                                         </p>
                                         <p>Terotecnología</p>
                                         <p>

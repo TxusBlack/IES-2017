@@ -55,10 +55,8 @@ $(document).ready(function(){
         $(".dyp").collapse('show');
         $('.d1-yp').click();
     });
-});
 
 // Timeline Días San Gil
-$(document).ready(function(){
     $(".d1-sg").click(function(){
         $(".dia2-sg").collapse('hide');
         $(".dia3-sg").collapse('hide');
@@ -83,10 +81,8 @@ $(document).ready(function(){
         $(".dia3-sg").collapse('hide');
         $(".dia4-sg").collapse('show');
     });
-});
 
 // Timeline Días Yopal
-$(document).ready(function(){
     $(".d1-yp").click(function(){
         $(".dia2-yp").collapse('hide');
         $(".dia3-yp").collapse('hide');
@@ -122,11 +118,14 @@ $(document).ready(function(){
         $(".dia4-yp").collapse('hide');
         $(".dia5-yp").collapse('show');
     });
-});
+
 
 // Show buttons San Gil
-$(document).ready(function(){
 	$('.sg').click();
 	$('.d1-sg').click();
+	setTimeout(function () {
+		$('body').scrollTop(0);
+		//$('html, body').animate({scrollTop:0},2000);
+	}, 100)
 });
 
