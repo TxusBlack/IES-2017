@@ -22,31 +22,31 @@
         
                     @if (Auth::user()->ciudad="San Gil")
                         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <img src="/img/bancos/Logo_Bancolombia.jpg" alt="Bancolombia" width="200px" height="100%">
+                            <img src="http://ies.unisangil.edu.co/img/bancos/jpg/Logo_Bancolombia.jpg" alt="Bancolombia" width="200px" height="100%">
                             <p>
                                 <strong>Cuenta de ahorros:<br>322-0564762-6</strong>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <img src="/img/bancos/logo-bancopopular.jpg" alt="Banco Popular" width="200px" height="100%">
+                            <img src="http://ies.unisangil.edu.co/img/bancos/jpg/logo-bancopopular.jpg" alt="Banco Popular" width="200px" height="100%">
                             <p>
                                 <strong>Cuenta de ahorros:<br>22052010585-9</strong>
                             </p>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                            <img src="/img/bancos/banco-caja-social.jpg" alt="Banco Caja Social" width="200px" height="100%">
+                            <img src="http://ies.unisangil.edu.co/img/bancos/jpg/banco-caja-social.jpg" alt="Banco Caja Social" width="200px" height="100%">
                             <p>
                                 <strong>Cuenta de ahorros:<br>26503786449</strong>
                             </p>
                         </div>
                         <div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6 col-xs-12">
-                            <img src="/img/bancos/logo-banco-pichincha.jpg" alt="Banco Pichincha" width="200px" height="100%">
+                            <img src="http://ies.unisangil.edu.co/img/bancos/jpg/logo-banco-pichincha.jpg" alt="Banco Pichincha" width="200px" height="100%">
                             <p>
                                 <strong>Cuenta de ahorros:<br>410220805</strong>
                             </p>
                         </div>
                         <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
-                            <img src="/img/bancos/Davivienda-Logo.jpg" alt="Davivienda" width="250px" height="100%">
+                            <img src="http://ies.unisangil.edu.co/img/bancos/jpg/Davivienda-Logo.jpg" alt="Davivienda" width="250px" height="100%">
                             <p>
                                 <strong>Cuenta de ahorros:<br>355-04081-2</strong>
                             </p>

@@ -75,7 +75,8 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-
+        $qr_code = sha1(rand());
+        $qr_code = substr($qr_code, 0, 100);
 
         return User::create([
             'name' => $data['name'],
@@ -93,6 +94,7 @@ class RegisterController extends Controller
             'ciudad' => $data['ciudad'],
             'pago_monto' => '$150.000',
             'fecha_lim_pago' => '9 de Septiembre de 2017',
+            'qr_code' => $qr_code,
         ]);
 
         /*$user = array(

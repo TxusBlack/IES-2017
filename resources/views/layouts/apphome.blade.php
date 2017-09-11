@@ -7,6 +7,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta HTTP-EQUIV="REFRESH" CONTENT="10">
 
     <title>{{ config('app.name', 'IES') }}</title>
 
