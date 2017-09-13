@@ -54,10 +54,10 @@
                                     Ingresar
                                 </button>
 
-                                <a class="btn btn-link" href="{{ route('register') }}">¿Eres nuevo?</a>
-                                {{-- <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password?
-                                </a> --}}
+                                <!--<a class="btn btn-link" href="{{ route('register') }}">¿Eres nuevo?</a>-->
+                                <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    Olvidé la contraseña
+                                </a>
                             </div>
                         </div>
                     </form>

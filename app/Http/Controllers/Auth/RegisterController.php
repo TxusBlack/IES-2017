@@ -7,6 +7,9 @@ use IES\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Psy\Util\Json;
+use Mail;
+
+use Illuminate\Http\Request;
 
 class RegisterController extends Controller
 {
@@ -75,10 +78,10 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $qr_code = sha1(rand());
-        $qr_code = substr($qr_code, 0, 100);
+        // QR Random
+        $data['qr_code'] = str_random(100);
 
-        return User::create([
+        $user = User::create([
             'name' => $data['name'],
             'apellidos' => $data['apellidos'],
             'tipo_id' => $data['tipo_id'],
@@ -94,8 +97,37 @@ class RegisterController extends Controller
             'ciudad' => $data['ciudad'],
             'pago_monto' => '$150.000',
             'fecha_lim_pago' => '9 de Septiembre de 2017',
-            'qr_code' => $qr_code,
+            'qr_code' => $data['qr_code'],
         ]);
+
+        // Email
+        Mail::send('emails.mail_register', $data, function($message) use($data){
+            $message->to($data['email'], $data['name'])->subject('Gracias por registrarte');
+        });
+
+        /*
+        $URL = "127.0.0.1:8000/mail/index.php?correo=".$data['email'];
+
+        $peticion = curl_init();
+
+        curl_setopt($peticion, CURLOPT_URL, $URL);
+        curl_setopt($peticion, CURLOPT_HTTPGET, TRUE);
+        curl_setopt($peticion, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+        curl_setopt($peticion, CURLOPT_SSLVERSION, 6);
+        curl_setopt($peticion, CURLOPT_RETURNTRANSFER, 1);
+
+        $respuesta = curl_exec($peticion);
+        */
+        
+        /*
+        if($respuesta == "exito")
+            //el correo se envio
+            echo "Funcionó puto";
+        else
+            // el correo no se envio
+            echo "No funcionó :(";*/
+
+        return $user;
 
         /*$user = array(
             'name' => $data['name'],
@@ -144,4 +176,12 @@ class RegisterController extends Controller
         */
 
     }
+
+    // protected function sendMail()
+    // {
+    //     // Email
+    //     Mail::send('emails.mail_register', $data, function($message) use ($data){
+    //         $message->to($data['email'], $data['name'])->subject('Gracias por registrarte');
+    //     });
+    // }
 }

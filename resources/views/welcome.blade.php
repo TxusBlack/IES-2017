@@ -4,12 +4,13 @@
 
 <!-- Banner -->
 <div class="container-fluid" style="padding: 0px;">
-    <div class="parallax" data-bs-parallax-bg="true">
+    <div class="parallax">
         <div class="container">
+            <!--<img src="/img/banner-final.jpg" alt="Banner IES">-->
             <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
                 <img class="img-responsive" src="/img/logo_ies.png" alt="Logo IES" width="300px" height="100%" style="padding-top: 40px; margin-left: 20px;">
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-8 img_banner">
+            <div class="col-lg-8 col-md-8 col-sm-8">
                 <img src="/img/Info.png" alt="IES" class="img-responsive img-fluid" width="762px" height="295px" style="padding-top: 40px;">
                 <a href="https://play.google.com/store/apps/details?id=com.unisangil.ies" target="__blank"><img class="margin-playstore playstore" src="/img/playstore.png" alt="PlayStore" class="img-responsive" width="236px" height="100%" border="none"></a>
             </div>
@@ -1461,7 +1462,7 @@
     <div class="container">
         <div class="row margin-footer">
             <div class="col-lg-1 col-md-2 col-sm-3 footerleft ">
-                <div><a href="http://unisangil.edu.co/"><img src="/img/logo_Unisangil_color.png" alt="Logo Unisangil" width="70px" height="100%" class="img-responsive"></a></div>
+                <div><a href="http://unisangil.edu.co/"><img src="/img/logo_Unisangil_blanco.png" alt="Logo Unisangil" width="70px" height="100%" class="img-responsive"></a></div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 footerleft">
                 <p><i class="fa fa-map-pin"></i> Km 2 vía San Gil - Charalá</p>

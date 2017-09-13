@@ -157,7 +157,7 @@ public function sendEmail($email){
  
   $mail->Subject = 'Gracias por registrarte ';
   $mail->Body    = '
-  <h2>Gracias por Pre-registrarte al IES Unisangil 2017</h2>
+  <h2>Gracias por Registrarte al IES Unisangil 2017</h2>
 <p><strong><em>Recuerda:</em></strong></p>
 <p><strong>*&nbsp;</strong>Fecha limite de pago: 9 de septiembre de 2017.</p>
 <p><strong>*&nbsp;</strong>Una vez realices el pago, debes dejar copia del recibo en&nbsp;<strong>Tesorer&iacute;a de Unisangil</strong>, adjuntando tu direcci&oacute;n de correo electr&oacute;nico con el cu&aacute;l te registraste, para enviarte el codigo de acceso a las conferencias y as&iacute; quedar inscrito al IES Unisangil 2017.</p>
